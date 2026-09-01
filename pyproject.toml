@@ -5,6 +5,28 @@ readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.11"
 dynamic = ["version"]
+keywords = ["accelerator", "synchrotron"]
+
+maintainers = [
+    { name = "pyAML Collaboration", email = "pyaml-steering-committee-contact@esrf.fr" },
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",    
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+[project.urls]
+Homepage = "https://python-accelerator-middle-layer.github.io/documentation/"
+Repository = "https://github.com/python-accelerator-middle-layer/pyaml-test-lattice"
 
 dependencies = [
     "accelerator-toolbox>=0.6.1",
