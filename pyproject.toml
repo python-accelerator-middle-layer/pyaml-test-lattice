@@ -1,0 +1,81 @@
+[project]
+name = "pyaml-test-lattice"
+description = "Lattices and configuration files for pyAML tests and tutorials"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+dynamic = ["version"]
+
+dependencies = [
+    "accelerator-toolbox>=0.6.1",
+]
+
+[project.optional-dependencies]
+
+test = [
+    "pytest>=7.4",
+    "pytest-cov>=3.0",
+]
+
+dev = [
+    "pre-commit",
+    "ruff",
+    "mypy",
+    "pytest",
+]
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.github",
+  "/docs",
+  "/tests",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pyaml_test_lattice"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.hooks.vcs]
+version-file = "src/pyaml_test_lattice/_version.py"
+
+[tool.ruff]
+line-length = 127
+target-version = "py311"
+
+[tool.ruff.lint]
+# Basic, sane default set: pycodestyle (E,W), pyflakes (F),
+# bugbear (B), imports (I), etc.
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "B",  # flake8-bugbear
+    "I",  # isort-style import sorting
+]
+ignore = [
+    "E203",  # so it's compatible with black-style formatting
+    "F401",  # unused imports
+    "F841",  # unused local variables
+    "E741",  # ambiguous variable name
+    "B024",  # abstract class with no methods
+]
+
+[tool.ruff.format]
+line-ending = "lf"
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+
+[tool.mypy]
+python_version = "3.11"
+strict = false
+ignore_missing_imports = true
