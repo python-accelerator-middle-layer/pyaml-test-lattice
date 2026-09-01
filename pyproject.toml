@@ -24,13 +24,13 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Physics",
 ]
 
-[project.urls]
-Homepage = "https://python-accelerator-middle-layer.github.io/documentation/"
-Repository = "https://github.com/python-accelerator-middle-layer/pyaml-test-lattice"
-
 dependencies = [
     "accelerator-toolbox>=0.6.1",
 ]
+
+[project.urls]
+Homepage = "https://python-accelerator-middle-layer.github.io/documentation/"
+Repository = "https://github.com/python-accelerator-middle-layer/pyaml-test-lattice"
 
 [project.optional-dependencies]
 
