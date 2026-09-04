@@ -1,0 +1,1275 @@
+[
+  {
+    "uuid": "RF_001",
+    "type": "RFCavity",
+    "FamName": "RF_001",
+    "name": "AN01-SD/RF-CAV/CAV",
+    "pc": "simulator/rfpc/rfpc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_001",
+    "type": "Quadrupole",
+    "FamName": "QF_001",
+    "name": "AN01-AR/EM-QP/QF.01",
+    "pc": "AN01-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_001",
+    "type": "Sextupole",
+    "FamName": "SF_001",
+    "name": "AN01-AR/EM-SX/SF.01",
+    "pc": "AN01-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_001",
+    "type": "BPM",
+    "FamName": "BPM_001",
+    "name": "AN01-AR/DG-EPOS/BPM.01",
+    "s_pos": 0.5
+  },
+  {
+    "uuid": "COR_001",
+    "type": "Multipole",
+    "FamName": "COR_001",
+    "name": "AN01-AR/EM-COR/CH.01",
+    "pc": "AN01-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_001",
+    "type": "Steerer",
+    "FamName": "COR_001",
+    "name": "AN01-AR/EM-COR/CV.01",
+    "pc": "AN01-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_001",
+    "type": "Bend",
+    "FamName": "B_001",
+    "name": "AN01-AR/EM-DIP/B.01",
+    "pc": "AN01-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_001",
+    "type": "Quadrupole",
+    "FamName": "QD_001",
+    "name": "AN01-AR/EM-QP/QD.01",
+    "pc": "AN01-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_001",
+    "type": "Sextupole",
+    "FamName": "SD_001",
+    "name": "AN01-AR/EM-SX/SD.01",
+    "pc": "AN01-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_002",
+    "type": "Bend",
+    "FamName": "B_002",
+    "name": "AN01-AR/EM-DIP/B.02",
+    "pc": "AN01-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_002",
+    "type": "Quadrupole",
+    "FamName": "QF_002",
+    "name": "AN02-AR/EM-QP/QF.01",
+    "pc": "AN02-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_002",
+    "type": "Sextupole",
+    "FamName": "SF_002",
+    "name": "AN02-AR/EM-SX/SF.01",
+    "pc": "AN02-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_002",
+    "type": "BPM",
+    "FamName": "BPM_002",
+    "name": "AN02-AR/DG-EPOS/BPM.01",
+    "s_pos": 5.3
+  },
+  {
+    "uuid": "COR_002",
+    "type": "Multipole",
+    "FamName": "COR_002",
+    "name": "AN02-AR/EM-COR/CH.01",
+    "pc": "AN02-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_002",
+    "type": "Steerer",
+    "FamName": "COR_002",
+    "name": "AN02-AR/EM-COR/CV.01",
+    "pc": "AN02-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_003",
+    "type": "Bend",
+    "FamName": "B_003",
+    "name": "AN02-AR/EM-DIP/B.01",
+    "pc": "AN02-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_002",
+    "type": "Quadrupole",
+    "FamName": "QD_002",
+    "name": "AN02-AR/EM-QP/QD.01",
+    "pc": "AN02-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_002",
+    "type": "Sextupole",
+    "FamName": "SD_002",
+    "name": "AN02-AR/EM-SX/SD.01",
+    "pc": "AN02-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_004",
+    "type": "Bend",
+    "FamName": "B_004",
+    "name": "AN02-AR/EM-DIP/B.02",
+    "pc": "AN02-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_003",
+    "type": "Quadrupole",
+    "FamName": "QF_003",
+    "name": "AN03-AR/EM-QP/QF.01",
+    "pc": "AN03-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_003",
+    "type": "Sextupole",
+    "FamName": "SF_003",
+    "name": "AN03-AR/EM-SX/SF.01",
+    "pc": "AN03-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_003",
+    "type": "BPM",
+    "FamName": "BPM_003",
+    "name": "AN03-AR/DG-EPOS/BPM.01",
+    "s_pos": 10.1
+  },
+  {
+    "uuid": "COR_003",
+    "type": "Multipole",
+    "FamName": "COR_003",
+    "name": "AN03-AR/EM-COR/CH.01",
+    "pc": "AN03-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_003",
+    "type": "Steerer",
+    "FamName": "COR_003",
+    "name": "AN03-AR/EM-COR/CV.01",
+    "pc": "AN03-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_005",
+    "type": "Bend",
+    "FamName": "B_005",
+    "name": "AN03-AR/EM-DIP/B.01",
+    "pc": "AN03-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_003",
+    "type": "Quadrupole",
+    "FamName": "QD_003",
+    "name": "AN03-AR/EM-QP/QD.01",
+    "pc": "AN03-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_003",
+    "type": "Sextupole",
+    "FamName": "SD_003",
+    "name": "AN03-AR/EM-SX/SD.01",
+    "pc": "AN03-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_006",
+    "type": "Bend",
+    "FamName": "B_006",
+    "name": "AN03-AR/EM-DIP/B.02",
+    "pc": "AN03-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_004",
+    "type": "Quadrupole",
+    "FamName": "QF_004",
+    "name": "AN04-AR/EM-QP/QF.01",
+    "pc": "AN04-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_004",
+    "type": "Sextupole",
+    "FamName": "SF_004",
+    "name": "AN04-AR/EM-SX/SF.01",
+    "pc": "AN04-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_004",
+    "type": "BPM",
+    "FamName": "BPM_004",
+    "name": "AN04-AR/DG-EPOS/BPM.01",
+    "s_pos": 14.9
+  },
+  {
+    "uuid": "COR_004",
+    "type": "Multipole",
+    "FamName": "COR_004",
+    "name": "AN04-AR/EM-COR/CH.01",
+    "pc": "AN04-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_004",
+    "type": "Steerer",
+    "FamName": "COR_004",
+    "name": "AN04-AR/EM-COR/CV.01",
+    "pc": "AN04-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_007",
+    "type": "Bend",
+    "FamName": "B_007",
+    "name": "AN04-AR/EM-DIP/B.01",
+    "pc": "AN04-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_004",
+    "type": "Quadrupole",
+    "FamName": "QD_004",
+    "name": "AN04-AR/EM-QP/QD.01",
+    "pc": "AN04-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_004",
+    "type": "Sextupole",
+    "FamName": "SD_004",
+    "name": "AN04-AR/EM-SX/SD.01",
+    "pc": "AN04-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_008",
+    "type": "Bend",
+    "FamName": "B_008",
+    "name": "AN04-AR/EM-DIP/B.02",
+    "pc": "AN04-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_005",
+    "type": "Quadrupole",
+    "FamName": "QF_005",
+    "name": "AN05-AR/EM-QP/QF.01",
+    "pc": "AN05-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_005",
+    "type": "Sextupole",
+    "FamName": "SF_005",
+    "name": "AN05-AR/EM-SX/SF.01",
+    "pc": "AN05-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_005",
+    "type": "BPM",
+    "FamName": "BPM_005",
+    "name": "AN05-AR/DG-EPOS/BPM.01",
+    "s_pos": 19.7
+  },
+  {
+    "uuid": "COR_005",
+    "type": "Multipole",
+    "FamName": "COR_005",
+    "name": "AN05-AR/EM-COR/CH.01",
+    "pc": "AN05-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_005",
+    "type": "Steerer",
+    "FamName": "COR_005",
+    "name": "AN05-AR/EM-COR/CV.01",
+    "pc": "AN05-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_009",
+    "type": "Bend",
+    "FamName": "B_009",
+    "name": "AN05-AR/EM-DIP/B.01",
+    "pc": "AN05-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_005",
+    "type": "Quadrupole",
+    "FamName": "QD_005",
+    "name": "AN05-AR/EM-QP/QD.01",
+    "pc": "AN05-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_005",
+    "type": "Sextupole",
+    "FamName": "SD_005",
+    "name": "AN05-AR/EM-SX/SD.01",
+    "pc": "AN05-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_010",
+    "type": "Bend",
+    "FamName": "B_010",
+    "name": "AN05-AR/EM-DIP/B.02",
+    "pc": "AN05-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_006",
+    "type": "Quadrupole",
+    "FamName": "QF_006",
+    "name": "AN06-AR/EM-QP/QF.01",
+    "pc": "AN06-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_006",
+    "type": "Sextupole",
+    "FamName": "SF_006",
+    "name": "AN06-AR/EM-SX/SF.01",
+    "pc": "AN06-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_006",
+    "type": "BPM",
+    "FamName": "BPM_006",
+    "name": "AN06-AR/DG-EPOS/BPM.01",
+    "s_pos": 24.5
+  },
+  {
+    "uuid": "COR_006",
+    "type": "Multipole",
+    "FamName": "COR_006",
+    "name": "AN06-AR/EM-COR/CH.01",
+    "pc": "AN06-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_006",
+    "type": "Steerer",
+    "FamName": "COR_006",
+    "name": "AN06-AR/EM-COR/CV.01",
+    "pc": "AN06-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_011",
+    "type": "Bend",
+    "FamName": "B_011",
+    "name": "AN06-AR/EM-DIP/B.01",
+    "pc": "AN06-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_006",
+    "type": "Quadrupole",
+    "FamName": "QD_006",
+    "name": "AN06-AR/EM-QP/QD.01",
+    "pc": "AN06-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_006",
+    "type": "Sextupole",
+    "FamName": "SD_006",
+    "name": "AN06-AR/EM-SX/SD.01",
+    "pc": "AN06-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_012",
+    "type": "Bend",
+    "FamName": "B_012",
+    "name": "AN06-AR/EM-DIP/B.02",
+    "pc": "AN06-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_007",
+    "type": "Quadrupole",
+    "FamName": "QF_007",
+    "name": "AN07-AR/EM-QP/QF.01",
+    "pc": "AN07-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_007",
+    "type": "Sextupole",
+    "FamName": "SF_007",
+    "name": "AN07-AR/EM-SX/SF.01",
+    "pc": "AN07-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_007",
+    "type": "BPM",
+    "FamName": "BPM_007",
+    "name": "AN07-AR/DG-EPOS/BPM.01",
+    "s_pos": 29.3
+  },
+  {
+    "uuid": "COR_007",
+    "type": "Multipole",
+    "FamName": "COR_007",
+    "name": "AN07-AR/EM-COR/CH.01",
+    "pc": "AN07-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_007",
+    "type": "Steerer",
+    "FamName": "COR_007",
+    "name": "AN07-AR/EM-COR/CV.01",
+    "pc": "AN07-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_013",
+    "type": "Bend",
+    "FamName": "B_013",
+    "name": "AN07-AR/EM-DIP/B.01",
+    "pc": "AN07-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_007",
+    "type": "Quadrupole",
+    "FamName": "QD_007",
+    "name": "AN07-AR/EM-QP/QD.01",
+    "pc": "AN07-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_007",
+    "type": "Sextupole",
+    "FamName": "SD_007",
+    "name": "AN07-AR/EM-SX/SD.01",
+    "pc": "AN07-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_014",
+    "type": "Bend",
+    "FamName": "B_014",
+    "name": "AN07-AR/EM-DIP/B.02",
+    "pc": "AN07-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_008",
+    "type": "Quadrupole",
+    "FamName": "QF_008",
+    "name": "AN08-AR/EM-QP/QF.01",
+    "pc": "AN08-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_008",
+    "type": "Sextupole",
+    "FamName": "SF_008",
+    "name": "AN08-AR/EM-SX/SF.01",
+    "pc": "AN08-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_008",
+    "type": "BPM",
+    "FamName": "BPM_008",
+    "name": "AN08-AR/DG-EPOS/BPM.01",
+    "s_pos": 34.1
+  },
+  {
+    "uuid": "COR_008",
+    "type": "Multipole",
+    "FamName": "COR_008",
+    "name": "AN08-AR/EM-COR/CH.01",
+    "pc": "AN08-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_008",
+    "type": "Steerer",
+    "FamName": "COR_008",
+    "name": "AN08-AR/EM-COR/CV.01",
+    "pc": "AN08-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_015",
+    "type": "Bend",
+    "FamName": "B_015",
+    "name": "AN08-AR/EM-DIP/B.01",
+    "pc": "AN08-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_008",
+    "type": "Quadrupole",
+    "FamName": "QD_008",
+    "name": "AN08-AR/EM-QP/QD.01",
+    "pc": "AN08-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_008",
+    "type": "Sextupole",
+    "FamName": "SD_008",
+    "name": "AN08-AR/EM-SX/SD.01",
+    "pc": "AN08-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_016",
+    "type": "Bend",
+    "FamName": "B_016",
+    "name": "AN08-AR/EM-DIP/B.02",
+    "pc": "AN08-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_009",
+    "type": "Quadrupole",
+    "FamName": "QF_009",
+    "name": "AN09-AR/EM-QP/QF.01",
+    "pc": "AN09-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_009",
+    "type": "Sextupole",
+    "FamName": "SF_009",
+    "name": "AN09-AR/EM-SX/SF.01",
+    "pc": "AN09-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_009",
+    "type": "BPM",
+    "FamName": "BPM_009",
+    "name": "AN09-AR/DG-EPOS/BPM.01",
+    "s_pos": 38.9
+  },
+  {
+    "uuid": "COR_009",
+    "type": "Multipole",
+    "FamName": "COR_009",
+    "name": "AN09-AR/EM-COR/CH.01",
+    "pc": "AN09-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_009",
+    "type": "Steerer",
+    "FamName": "COR_009",
+    "name": "AN09-AR/EM-COR/CV.01",
+    "pc": "AN09-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_017",
+    "type": "Bend",
+    "FamName": "B_017",
+    "name": "AN09-AR/EM-DIP/B.01",
+    "pc": "AN09-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_009",
+    "type": "Quadrupole",
+    "FamName": "QD_009",
+    "name": "AN09-AR/EM-QP/QD.01",
+    "pc": "AN09-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_009",
+    "type": "Sextupole",
+    "FamName": "SD_009",
+    "name": "AN09-AR/EM-SX/SD.01",
+    "pc": "AN09-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_018",
+    "type": "Bend",
+    "FamName": "B_018",
+    "name": "AN09-AR/EM-DIP/B.02",
+    "pc": "AN09-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_010",
+    "type": "Quadrupole",
+    "FamName": "QF_010",
+    "name": "AN10-AR/EM-QP/QF.01",
+    "pc": "AN10-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_010",
+    "type": "Sextupole",
+    "FamName": "SF_010",
+    "name": "AN10-AR/EM-SX/SF.01",
+    "pc": "AN10-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_010",
+    "type": "BPM",
+    "FamName": "BPM_010",
+    "name": "AN10-AR/DG-EPOS/BPM.01",
+    "s_pos": 43.7
+  },
+  {
+    "uuid": "COR_010",
+    "type": "Multipole",
+    "FamName": "COR_010",
+    "name": "AN10-AR/EM-COR/CH.01",
+    "pc": "AN10-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_010",
+    "type": "Steerer",
+    "FamName": "COR_010",
+    "name": "AN10-AR/EM-COR/CV.01",
+    "pc": "AN10-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_019",
+    "type": "Bend",
+    "FamName": "B_019",
+    "name": "AN10-AR/EM-DIP/B.01",
+    "pc": "AN10-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_010",
+    "type": "Quadrupole",
+    "FamName": "QD_010",
+    "name": "AN10-AR/EM-QP/QD.01",
+    "pc": "AN10-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_010",
+    "type": "Sextupole",
+    "FamName": "SD_010",
+    "name": "AN10-AR/EM-SX/SD.01",
+    "pc": "AN10-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_020",
+    "type": "Bend",
+    "FamName": "B_020",
+    "name": "AN10-AR/EM-DIP/B.02",
+    "pc": "AN10-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_011",
+    "type": "Quadrupole",
+    "FamName": "QF_011",
+    "name": "AN11-AR/EM-QP/QF.01",
+    "pc": "AN11-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_011",
+    "type": "Sextupole",
+    "FamName": "SF_011",
+    "name": "AN11-AR/EM-SX/SF.01",
+    "pc": "AN11-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_011",
+    "type": "BPM",
+    "FamName": "BPM_011",
+    "name": "AN11-AR/DG-EPOS/BPM.01",
+    "s_pos": 48.5
+  },
+  {
+    "uuid": "COR_011",
+    "type": "Multipole",
+    "FamName": "COR_011",
+    "name": "AN11-AR/EM-COR/CH.01",
+    "pc": "AN11-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_011",
+    "type": "Steerer",
+    "FamName": "COR_011",
+    "name": "AN11-AR/EM-COR/CV.01",
+    "pc": "AN11-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_021",
+    "type": "Bend",
+    "FamName": "B_021",
+    "name": "AN11-AR/EM-DIP/B.01",
+    "pc": "AN11-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_011",
+    "type": "Quadrupole",
+    "FamName": "QD_011",
+    "name": "AN11-AR/EM-QP/QD.01",
+    "pc": "AN11-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_011",
+    "type": "Sextupole",
+    "FamName": "SD_011",
+    "name": "AN11-AR/EM-SX/SD.01",
+    "pc": "AN11-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_022",
+    "type": "Bend",
+    "FamName": "B_022",
+    "name": "AN11-AR/EM-DIP/B.02",
+    "pc": "AN11-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_012",
+    "type": "Quadrupole",
+    "FamName": "QF_012",
+    "name": "AN12-AR/EM-QP/QF.01",
+    "pc": "AN12-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_012",
+    "type": "Sextupole",
+    "FamName": "SF_012",
+    "name": "AN12-AR/EM-SX/SF.01",
+    "pc": "AN12-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_012",
+    "type": "BPM",
+    "FamName": "BPM_012",
+    "name": "AN12-AR/DG-EPOS/BPM.01",
+    "s_pos": 53.3
+  },
+  {
+    "uuid": "COR_012",
+    "type": "Multipole",
+    "FamName": "COR_012",
+    "name": "AN12-AR/EM-COR/CH.01",
+    "pc": "AN12-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_012",
+    "type": "Steerer",
+    "FamName": "COR_012",
+    "name": "AN12-AR/EM-COR/CV.01",
+    "pc": "AN12-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_023",
+    "type": "Bend",
+    "FamName": "B_023",
+    "name": "AN12-AR/EM-DIP/B.01",
+    "pc": "AN12-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_012",
+    "type": "Quadrupole",
+    "FamName": "QD_012",
+    "name": "AN12-AR/EM-QP/QD.01",
+    "pc": "AN12-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_012",
+    "type": "Sextupole",
+    "FamName": "SD_012",
+    "name": "AN12-AR/EM-SX/SD.01",
+    "pc": "AN12-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_024",
+    "type": "Bend",
+    "FamName": "B_024",
+    "name": "AN12-AR/EM-DIP/B.02",
+    "pc": "AN12-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_013",
+    "type": "Quadrupole",
+    "FamName": "QF_013",
+    "name": "AN13-AR/EM-QP/QF.01",
+    "pc": "AN13-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_013",
+    "type": "Sextupole",
+    "FamName": "SF_013",
+    "name": "AN13-AR/EM-SX/SF.01",
+    "pc": "AN13-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_013",
+    "type": "BPM",
+    "FamName": "BPM_013",
+    "name": "AN13-AR/DG-EPOS/BPM.01",
+    "s_pos": 58.1
+  },
+  {
+    "uuid": "COR_013",
+    "type": "Multipole",
+    "FamName": "COR_013",
+    "name": "AN13-AR/EM-COR/CH.01",
+    "pc": "AN13-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_013",
+    "type": "Steerer",
+    "FamName": "COR_013",
+    "name": "AN13-AR/EM-COR/CV.01",
+    "pc": "AN13-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_025",
+    "type": "Bend",
+    "FamName": "B_025",
+    "name": "AN13-AR/EM-DIP/B.01",
+    "pc": "AN13-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_013",
+    "type": "Quadrupole",
+    "FamName": "QD_013",
+    "name": "AN13-AR/EM-QP/QD.01",
+    "pc": "AN13-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_013",
+    "type": "Sextupole",
+    "FamName": "SD_013",
+    "name": "AN13-AR/EM-SX/SD.01",
+    "pc": "AN13-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_026",
+    "type": "Bend",
+    "FamName": "B_026",
+    "name": "AN13-AR/EM-DIP/B.02",
+    "pc": "AN13-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_014",
+    "type": "Quadrupole",
+    "FamName": "QF_014",
+    "name": "AN14-AR/EM-QP/QF.01",
+    "pc": "AN14-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_014",
+    "type": "Sextupole",
+    "FamName": "SF_014",
+    "name": "AN14-AR/EM-SX/SF.01",
+    "pc": "AN14-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_014",
+    "type": "BPM",
+    "FamName": "BPM_014",
+    "name": "AN14-AR/DG-EPOS/BPM.01",
+    "s_pos": 62.9
+  },
+  {
+    "uuid": "COR_014",
+    "type": "Multipole",
+    "FamName": "COR_014",
+    "name": "AN14-AR/EM-COR/CH.01",
+    "pc": "AN14-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_014",
+    "type": "Steerer",
+    "FamName": "COR_014",
+    "name": "AN14-AR/EM-COR/CV.01",
+    "pc": "AN14-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_027",
+    "type": "Bend",
+    "FamName": "B_027",
+    "name": "AN14-AR/EM-DIP/B.01",
+    "pc": "AN14-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_014",
+    "type": "Quadrupole",
+    "FamName": "QD_014",
+    "name": "AN14-AR/EM-QP/QD.01",
+    "pc": "AN14-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_014",
+    "type": "Sextupole",
+    "FamName": "SD_014",
+    "name": "AN14-AR/EM-SX/SD.01",
+    "pc": "AN14-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_028",
+    "type": "Bend",
+    "FamName": "B_028",
+    "name": "AN14-AR/EM-DIP/B.02",
+    "pc": "AN14-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_015",
+    "type": "Quadrupole",
+    "FamName": "QF_015",
+    "name": "AN15-AR/EM-QP/QF.01",
+    "pc": "AN15-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_015",
+    "type": "Sextupole",
+    "FamName": "SF_015",
+    "name": "AN15-AR/EM-SX/SF.01",
+    "pc": "AN15-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_015",
+    "type": "BPM",
+    "FamName": "BPM_015",
+    "name": "AN15-AR/DG-EPOS/BPM.01",
+    "s_pos": 67.7
+  },
+  {
+    "uuid": "COR_015",
+    "type": "Multipole",
+    "FamName": "COR_015",
+    "name": "AN15-AR/EM-COR/CH.01",
+    "pc": "AN15-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_015",
+    "type": "Steerer",
+    "FamName": "COR_015",
+    "name": "AN15-AR/EM-COR/CV.01",
+    "pc": "AN15-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_029",
+    "type": "Bend",
+    "FamName": "B_029",
+    "name": "AN15-AR/EM-DIP/B.01",
+    "pc": "AN15-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_015",
+    "type": "Quadrupole",
+    "FamName": "QD_015",
+    "name": "AN15-AR/EM-QP/QD.01",
+    "pc": "AN15-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_015",
+    "type": "Sextupole",
+    "FamName": "SD_015",
+    "name": "AN15-AR/EM-SX/SD.01",
+    "pc": "AN15-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_030",
+    "type": "Bend",
+    "FamName": "B_030",
+    "name": "AN15-AR/EM-DIP/B.02",
+    "pc": "AN15-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QF_016",
+    "type": "Quadrupole",
+    "FamName": "QF_016",
+    "name": "AN16-AR/EM-QP/QF.01",
+    "pc": "AN16-AR/EM-QP/QF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SF_016",
+    "type": "Sextupole",
+    "FamName": "SF_016",
+    "name": "AN16-AR/EM-SX/SF.01",
+    "pc": "AN16-AR/EM-SX/SF.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "BPM_016",
+    "type": "BPM",
+    "FamName": "BPM_016",
+    "name": "AN16-AR/DG-EPOS/BPM.01",
+    "s_pos": 72.5
+  },
+  {
+    "uuid": "COR_016",
+    "type": "Multipole",
+    "FamName": "COR_016",
+    "name": "AN16-AR/EM-COR/CH.01",
+    "pc": "AN16-AR/EM-COR/CH.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "COR_016",
+    "type": "Steerer",
+    "FamName": "COR_016",
+    "name": "AN16-AR/EM-COR/CV.01",
+    "pc": "AN16-AR/EM-COR/CV.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_031",
+    "type": "Bend",
+    "FamName": "B_031",
+    "name": "AN16-AR/EM-DIP/B.01",
+    "pc": "AN16-AR/EM-DIP/B.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "QD_016",
+    "type": "Quadrupole",
+    "FamName": "QD_016",
+    "name": "AN16-AR/EM-QP/QD.01",
+    "pc": "AN16-AR/EM-QP/QD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "SD_016",
+    "type": "Sextupole",
+    "FamName": "SD_016",
+    "name": "AN16-AR/EM-SX/SD.01",
+    "pc": "AN16-AR/EM-SX/SD.01-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "uuid": "B_032",
+    "type": "Bend",
+    "FamName": "B_032",
+    "name": "AN16-AR/EM-DIP/B.02",
+    "pc": "AN16-AR/EM-DIP/B.02-pc",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  }
+]

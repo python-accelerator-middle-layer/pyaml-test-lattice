@@ -1,5 +1,5 @@
 RF_001:
-  UUID: RF_001_6363b723d15843ab9974ebb67784d638
+  UUID: RF_001
   Lattice:
     FamName: RF_001
     Class: RFCavity
@@ -11,7 +11,7 @@ RF_001:
     S_pos: 0.0
     Cell: 1
 QF_001:
-  UUID: QF_001_314d440dcc3348c687785c80e67fce27
+  UUID: QF_001
   Lattice:
     FamName: QF_001
     Class: Quadrupole
@@ -25,7 +25,7 @@ QF_001:
     S_pos: 0.0
     Cell: 1
 SF_001:
-  UUID: SF_001_edcc66b4534e41e992c99b61387c7b23
+  UUID: SF_001
   Lattice:
     FamName: SF_001
     Class: Sextupole
@@ -39,7 +39,7 @@ SF_001:
     S_pos: 0.4
     Cell: 1
 BPM_001:
-  UUID: BPM_001_13747cd19dcd464597a319938cdd1451
+  UUID: BPM_001
   Lattice:
     FamName: BPM_001
     Class: Monitor
@@ -51,7 +51,7 @@ BPM_001:
     S_pos: 0.5
     Cell: 1
 COR_001:
-  UUID: COR_001_40245a63817f45fdbaf0588fc373304c
+  UUID: COR_001
   Lattice:
     FamName: COR_001
     Class: Multipole
@@ -66,7 +66,7 @@ COR_001:
     S_pos: 0.5
     Cell: 1
 B_001:
-  UUID: B_001_5f1afe65b5f740b29a48bf437414f672
+  UUID: B_001
   Lattice:
     FamName: B_001
     Class: Bend
@@ -80,7 +80,7 @@ B_001:
     S_pos: 0.9
     Cell: 1
 QD_001:
-  UUID: QD_001_b9826a8c73d642d6889df2a7537cb24c
+  UUID: QD_001
   Lattice:
     FamName: QD_001
     Class: Quadrupole
@@ -94,7 +94,7 @@ QD_001:
     S_pos: 2.4
     Cell: 1
 SD_001:
-  UUID: SD_001_0f91beb1c65a4c0c9662555dd6a83244
+  UUID: SD_001
   Lattice:
     FamName: SD_001
     Class: Sextupole
@@ -108,7 +108,7 @@ SD_001:
     S_pos: 2.8
     Cell: 1
 B_002:
-  UUID: B_002_a736eb95b9f641fa95b16a7bc843d278
+  UUID: B_002
   Lattice:
     FamName: B_002
     Class: Bend
@@ -122,7 +122,7 @@ B_002:
     S_pos: 3.3
     Cell: 1
 QF_002:
-  UUID: QF_002_77738075da634369ad1751e6263f2a65
+  UUID: QF_002
   Lattice:
     FamName: QF_002
     Class: Quadrupole
@@ -136,7 +136,7 @@ QF_002:
     S_pos: 4.8
     Cell: 2
 SF_002:
-  UUID: SF_002_adf891f146274708a9610ae81766d5ac
+  UUID: SF_002
   Lattice:
     FamName: SF_002
     Class: Sextupole
@@ -150,7 +150,7 @@ SF_002:
     S_pos: 5.2
     Cell: 2
 BPM_002:
-  UUID: BPM_002_6811d1cdf38447a5994ff1c46e8c0fe9
+  UUID: BPM_002
   Lattice:
     FamName: BPM_002
     Class: Monitor
@@ -162,7 +162,7 @@ BPM_002:
     S_pos: 5.3
     Cell: 2
 COR_002:
-  UUID: COR_002_da1aed18178646bfa755086e61402f11
+  UUID: COR_002
   Lattice:
     FamName: COR_002
     Class: Multipole
@@ -177,7 +177,7 @@ COR_002:
     S_pos: 5.3
     Cell: 2
 B_003:
-  UUID: B_003_13470d5d861841a684577a3208b8cae2
+  UUID: B_003
   Lattice:
     FamName: B_003
     Class: Bend
@@ -191,7 +191,7 @@ B_003:
     S_pos: 5.7
     Cell: 2
 QD_002:
-  UUID: QD_002_9ddbc1b0ac004bb88a7806a2f45d34dd
+  UUID: QD_002
   Lattice:
     FamName: QD_002
     Class: Quadrupole
@@ -205,7 +205,7 @@ QD_002:
     S_pos: 7.2
     Cell: 2
 SD_002:
-  UUID: SD_002_69ddf4e0a6cb4c10ab214b53ed521ff3
+  UUID: SD_002
   Lattice:
     FamName: SD_002
     Class: Sextupole
@@ -219,7 +219,7 @@ SD_002:
     S_pos: 7.6
     Cell: 2
 B_004:
-  UUID: B_004_626a5b828edc4ed8b341d754174a5b2d
+  UUID: B_004
   Lattice:
     FamName: B_004
     Class: Bend
@@ -233,7 +233,7 @@ B_004:
     S_pos: 8.1
     Cell: 2
 QF_003:
-  UUID: QF_003_fdc3743f439640b8b6b8edeeaee4b3b6
+  UUID: QF_003
   Lattice:
     FamName: QF_003
     Class: Quadrupole
@@ -247,7 +247,7 @@ QF_003:
     S_pos: 9.6
     Cell: 3
 SF_003:
-  UUID: SF_003_675b74daa1d947668de7bac4e7a2d389
+  UUID: SF_003
   Lattice:
     FamName: SF_003
     Class: Sextupole
@@ -261,7 +261,7 @@ SF_003:
     S_pos: 10.0
     Cell: 3
 BPM_003:
-  UUID: BPM_003_0a8398e87d9546648c19c253b4111a92
+  UUID: BPM_003
   Lattice:
     FamName: BPM_003
     Class: Monitor
@@ -273,7 +273,7 @@ BPM_003:
     S_pos: 10.1
     Cell: 3
 COR_003:
-  UUID: COR_003_a47e4afce05e42c7b3bbda1b0f49b62a
+  UUID: COR_003
   Lattice:
     FamName: COR_003
     Class: Multipole
@@ -288,7 +288,7 @@ COR_003:
     S_pos: 10.1
     Cell: 3
 B_005:
-  UUID: B_005_51e275d1f4c04653a62f83a03e837afa
+  UUID: B_005
   Lattice:
     FamName: B_005
     Class: Bend
@@ -302,7 +302,7 @@ B_005:
     S_pos: 10.5
     Cell: 3
 QD_003:
-  UUID: QD_003_f3adbe2c1b3b4e96b98e8487963b2ab7
+  UUID: QD_003
   Lattice:
     FamName: QD_003
     Class: Quadrupole
@@ -316,7 +316,7 @@ QD_003:
     S_pos: 12.0
     Cell: 3
 SD_003:
-  UUID: SD_003_8847f52a1ab2413987b864de9b877ed2
+  UUID: SD_003
   Lattice:
     FamName: SD_003
     Class: Sextupole
@@ -330,7 +330,7 @@ SD_003:
     S_pos: 12.4
     Cell: 3
 B_006:
-  UUID: B_006_efa60311fb494a26b65a95d174d1ab88
+  UUID: B_006
   Lattice:
     FamName: B_006
     Class: Bend
@@ -344,7 +344,7 @@ B_006:
     S_pos: 12.9
     Cell: 3
 QF_004:
-  UUID: QF_004_3d6633b2daab4497946456e04a20ff53
+  UUID: QF_004
   Lattice:
     FamName: QF_004
     Class: Quadrupole
@@ -358,7 +358,7 @@ QF_004:
     S_pos: 14.4
     Cell: 4
 SF_004:
-  UUID: SF_004_994280b85ca5424c97b5a922b7865406
+  UUID: SF_004
   Lattice:
     FamName: SF_004
     Class: Sextupole
@@ -372,7 +372,7 @@ SF_004:
     S_pos: 14.8
     Cell: 4
 BPM_004:
-  UUID: BPM_004_130263628b354604a3776421daf9003e
+  UUID: BPM_004
   Lattice:
     FamName: BPM_004
     Class: Monitor
@@ -384,7 +384,7 @@ BPM_004:
     S_pos: 14.9
     Cell: 4
 COR_004:
-  UUID: COR_004_df8065c70f8343b39be055d3baa89b6f
+  UUID: COR_004
   Lattice:
     FamName: COR_004
     Class: Multipole
@@ -399,7 +399,7 @@ COR_004:
     S_pos: 14.9
     Cell: 4
 B_007:
-  UUID: B_007_e171d6d45d0a40b0a331ab89d7f64deb
+  UUID: B_007
   Lattice:
     FamName: B_007
     Class: Bend
@@ -413,7 +413,7 @@ B_007:
     S_pos: 15.3
     Cell: 4
 QD_004:
-  UUID: QD_004_0d27ccc7536744e5bfa666ace4b7bbce
+  UUID: QD_004
   Lattice:
     FamName: QD_004
     Class: Quadrupole
@@ -427,7 +427,7 @@ QD_004:
     S_pos: 16.8
     Cell: 4
 SD_004:
-  UUID: SD_004_9dd9281637544366981ea51cd482bd24
+  UUID: SD_004
   Lattice:
     FamName: SD_004
     Class: Sextupole
@@ -441,7 +441,7 @@ SD_004:
     S_pos: 17.2
     Cell: 4
 B_008:
-  UUID: B_008_2ab18de726d24f378c236ce5b424e0ce
+  UUID: B_008
   Lattice:
     FamName: B_008
     Class: Bend
@@ -455,7 +455,7 @@ B_008:
     S_pos: 17.7
     Cell: 4
 QF_005:
-  UUID: QF_005_eedbaf0b897245a7ae902a3737c9448a
+  UUID: QF_005
   Lattice:
     FamName: QF_005
     Class: Quadrupole
@@ -469,7 +469,7 @@ QF_005:
     S_pos: 19.2
     Cell: 5
 SF_005:
-  UUID: SF_005_d03c9d8336ea467a86e8e734b58230a7
+  UUID: SF_005
   Lattice:
     FamName: SF_005
     Class: Sextupole
@@ -483,7 +483,7 @@ SF_005:
     S_pos: 19.6
     Cell: 5
 BPM_005:
-  UUID: BPM_005_48a3a7f9195a487ebcbd1aa6796f04e2
+  UUID: BPM_005
   Lattice:
     FamName: BPM_005
     Class: Monitor
@@ -495,7 +495,7 @@ BPM_005:
     S_pos: 19.7
     Cell: 5
 COR_005:
-  UUID: COR_005_9215a7c55cca49a7ab589783360624ce
+  UUID: COR_005
   Lattice:
     FamName: COR_005
     Class: Multipole
@@ -510,7 +510,7 @@ COR_005:
     S_pos: 19.7
     Cell: 5
 B_009:
-  UUID: B_009_55172c2c1e354e249c22fec20ed1a342
+  UUID: B_009
   Lattice:
     FamName: B_009
     Class: Bend
@@ -524,7 +524,7 @@ B_009:
     S_pos: 20.1
     Cell: 5
 QD_005:
-  UUID: QD_005_86031f371c6e4a03ad193b5fc776a4c2
+  UUID: QD_005
   Lattice:
     FamName: QD_005
     Class: Quadrupole
@@ -538,7 +538,7 @@ QD_005:
     S_pos: 21.6
     Cell: 5
 SD_005:
-  UUID: SD_005_8f33822faf52429f9fa9375100b90fb7
+  UUID: SD_005
   Lattice:
     FamName: SD_005
     Class: Sextupole
@@ -552,7 +552,7 @@ SD_005:
     S_pos: 22.0
     Cell: 5
 B_010:
-  UUID: B_010_a9b4e9f8ae2a4e919ff30659c4e30171
+  UUID: B_010
   Lattice:
     FamName: B_010
     Class: Bend
@@ -566,7 +566,7 @@ B_010:
     S_pos: 22.5
     Cell: 5
 QF_006:
-  UUID: QF_006_ac8563ac0cf549d4a3a931704888d081
+  UUID: QF_006
   Lattice:
     FamName: QF_006
     Class: Quadrupole
@@ -580,7 +580,7 @@ QF_006:
     S_pos: 24.0
     Cell: 6
 SF_006:
-  UUID: SF_006_5fdcf7038343474f9569065f5df17370
+  UUID: SF_006
   Lattice:
     FamName: SF_006
     Class: Sextupole
@@ -594,7 +594,7 @@ SF_006:
     S_pos: 24.4
     Cell: 6
 BPM_006:
-  UUID: BPM_006_2875c012f3454392ad4575cd9586780a
+  UUID: BPM_006
   Lattice:
     FamName: BPM_006
     Class: Monitor
@@ -606,7 +606,7 @@ BPM_006:
     S_pos: 24.5
     Cell: 6
 COR_006:
-  UUID: COR_006_dd5a91ce11124e60bbb9df93a10d6b11
+  UUID: COR_006
   Lattice:
     FamName: COR_006
     Class: Multipole
@@ -621,7 +621,7 @@ COR_006:
     S_pos: 24.5
     Cell: 6
 B_011:
-  UUID: B_011_3d8537487c4a475b8ef9d85a64525cfb
+  UUID: B_011
   Lattice:
     FamName: B_011
     Class: Bend
@@ -635,7 +635,7 @@ B_011:
     S_pos: 24.9
     Cell: 6
 QD_006:
-  UUID: QD_006_baaa109b7de4464e92dbc31cc1aa6f73
+  UUID: QD_006
   Lattice:
     FamName: QD_006
     Class: Quadrupole
@@ -649,7 +649,7 @@ QD_006:
     S_pos: 26.4
     Cell: 6
 SD_006:
-  UUID: SD_006_9a910185762c46698c0dc7f85c81843b
+  UUID: SD_006
   Lattice:
     FamName: SD_006
     Class: Sextupole
@@ -663,7 +663,7 @@ SD_006:
     S_pos: 26.8
     Cell: 6
 B_012:
-  UUID: B_012_0b859d92d0d24ae9ac80daa9f7be887b
+  UUID: B_012
   Lattice:
     FamName: B_012
     Class: Bend
@@ -677,7 +677,7 @@ B_012:
     S_pos: 27.3
     Cell: 6
 QF_007:
-  UUID: QF_007_85bc483c3eaa4e0ba633f65a5c8340a7
+  UUID: QF_007
   Lattice:
     FamName: QF_007
     Class: Quadrupole
@@ -691,7 +691,7 @@ QF_007:
     S_pos: 28.8
     Cell: 7
 SF_007:
-  UUID: SF_007_4ac2e46aa5bb4c38a31b271aca565134
+  UUID: SF_007
   Lattice:
     FamName: SF_007
     Class: Sextupole
@@ -705,7 +705,7 @@ SF_007:
     S_pos: 29.2
     Cell: 7
 BPM_007:
-  UUID: BPM_007_6b8c2d93530940baaef053b10d14b66c
+  UUID: BPM_007
   Lattice:
     FamName: BPM_007
     Class: Monitor
@@ -717,7 +717,7 @@ BPM_007:
     S_pos: 29.3
     Cell: 7
 COR_007:
-  UUID: COR_007_3cd2e2d7f28d442abcd1b8039f78efa5
+  UUID: COR_007
   Lattice:
     FamName: COR_007
     Class: Multipole
@@ -732,7 +732,7 @@ COR_007:
     S_pos: 29.3
     Cell: 7
 B_013:
-  UUID: B_013_fa5b9deca6c0447f98ffc22b894d4b2d
+  UUID: B_013
   Lattice:
     FamName: B_013
     Class: Bend
@@ -746,7 +746,7 @@ B_013:
     S_pos: 29.7
     Cell: 7
 QD_007:
-  UUID: QD_007_423c1d2bd5704dc09df2459a5e88c6e1
+  UUID: QD_007
   Lattice:
     FamName: QD_007
     Class: Quadrupole
@@ -760,7 +760,7 @@ QD_007:
     S_pos: 31.2
     Cell: 7
 SD_007:
-  UUID: SD_007_8073281429e249bf8d476386a06e71d6
+  UUID: SD_007
   Lattice:
     FamName: SD_007
     Class: Sextupole
@@ -774,7 +774,7 @@ SD_007:
     S_pos: 31.6
     Cell: 7
 B_014:
-  UUID: B_014_e3b3cd7118734d9a8f772cd2e59329b0
+  UUID: B_014
   Lattice:
     FamName: B_014
     Class: Bend
@@ -788,7 +788,7 @@ B_014:
     S_pos: 32.1
     Cell: 7
 QF_008:
-  UUID: QF_008_9d30486816f14f42b71899a138737b22
+  UUID: QF_008
   Lattice:
     FamName: QF_008
     Class: Quadrupole
@@ -802,7 +802,7 @@ QF_008:
     S_pos: 33.6
     Cell: 8
 SF_008:
-  UUID: SF_008_3242d83833824998b6f5ce551917a149
+  UUID: SF_008
   Lattice:
     FamName: SF_008
     Class: Sextupole
@@ -816,7 +816,7 @@ SF_008:
     S_pos: 34.0
     Cell: 8
 BPM_008:
-  UUID: BPM_008_0a034d2069ff4fa59d26b7573e5d0011
+  UUID: BPM_008
   Lattice:
     FamName: BPM_008
     Class: Monitor
@@ -828,7 +828,7 @@ BPM_008:
     S_pos: 34.1
     Cell: 8
 COR_008:
-  UUID: COR_008_7a8f6a10d6c147b0affe509482741943
+  UUID: COR_008
   Lattice:
     FamName: COR_008
     Class: Multipole
@@ -843,7 +843,7 @@ COR_008:
     S_pos: 34.1
     Cell: 8
 B_015:
-  UUID: B_015_debe465500ea450caec6c20c033a61f5
+  UUID: B_015
   Lattice:
     FamName: B_015
     Class: Bend
@@ -857,7 +857,7 @@ B_015:
     S_pos: 34.5
     Cell: 8
 QD_008:
-  UUID: QD_008_39a76afbc5c0448fbdfb80941bd62551
+  UUID: QD_008
   Lattice:
     FamName: QD_008
     Class: Quadrupole
@@ -871,7 +871,7 @@ QD_008:
     S_pos: 36.0
     Cell: 8
 SD_008:
-  UUID: SD_008_78e4371b8fd54fd09898b0f1a0d6811f
+  UUID: SD_008
   Lattice:
     FamName: SD_008
     Class: Sextupole
@@ -885,7 +885,7 @@ SD_008:
     S_pos: 36.4
     Cell: 8
 B_016:
-  UUID: B_016_cb7ff66004864777ab2d1cb51a320cd0
+  UUID: B_016
   Lattice:
     FamName: B_016
     Class: Bend
@@ -899,7 +899,7 @@ B_016:
     S_pos: 36.9
     Cell: 8
 QF_009:
-  UUID: QF_009_a82e998e865c43c382ee98fa60aa2200
+  UUID: QF_009
   Lattice:
     FamName: QF_009
     Class: Quadrupole
@@ -913,7 +913,7 @@ QF_009:
     S_pos: 38.4
     Cell: 9
 SF_009:
-  UUID: SF_009_b8699ab8bc87481a9e399fe32c086ce3
+  UUID: SF_009
   Lattice:
     FamName: SF_009
     Class: Sextupole
@@ -927,7 +927,7 @@ SF_009:
     S_pos: 38.8
     Cell: 9
 BPM_009:
-  UUID: BPM_009_71951baace814f4191ab44dd6022744c
+  UUID: BPM_009
   Lattice:
     FamName: BPM_009
     Class: Monitor
@@ -939,7 +939,7 @@ BPM_009:
     S_pos: 38.9
     Cell: 9
 COR_009:
-  UUID: COR_009_72d51334bf7847e18181f4704188dd84
+  UUID: COR_009
   Lattice:
     FamName: COR_009
     Class: Multipole
@@ -954,7 +954,7 @@ COR_009:
     S_pos: 38.9
     Cell: 9
 B_017:
-  UUID: B_017_84e24e15c84d41b4ac56d69800f0f01a
+  UUID: B_017
   Lattice:
     FamName: B_017
     Class: Bend
@@ -968,7 +968,7 @@ B_017:
     S_pos: 39.3
     Cell: 9
 QD_009:
-  UUID: QD_009_0954ff1f957d4496b5155f1798ae4509
+  UUID: QD_009
   Lattice:
     FamName: QD_009
     Class: Quadrupole
@@ -982,7 +982,7 @@ QD_009:
     S_pos: 40.8
     Cell: 9
 SD_009:
-  UUID: SD_009_6fc6326d3a3e4d53b5fafa0cb8e51259
+  UUID: SD_009
   Lattice:
     FamName: SD_009
     Class: Sextupole
@@ -996,7 +996,7 @@ SD_009:
     S_pos: 41.2
     Cell: 9
 B_018:
-  UUID: B_018_af1cdae072a34116bb7a0d5bbe897094
+  UUID: B_018
   Lattice:
     FamName: B_018
     Class: Bend
@@ -1010,7 +1010,7 @@ B_018:
     S_pos: 41.7
     Cell: 9
 QF_010:
-  UUID: QF_010_64354ff742804522aa304c228f7cc64f
+  UUID: QF_010
   Lattice:
     FamName: QF_010
     Class: Quadrupole
@@ -1024,7 +1024,7 @@ QF_010:
     S_pos: 43.2
     Cell: 10
 SF_010:
-  UUID: SF_010_b463a021c7bb4d5b87981e9bb0a65b39
+  UUID: SF_010
   Lattice:
     FamName: SF_010
     Class: Sextupole
@@ -1038,7 +1038,7 @@ SF_010:
     S_pos: 43.6
     Cell: 10
 BPM_010:
-  UUID: BPM_010_5aa612b6346d4cfda4c59e902d924cb0
+  UUID: BPM_010
   Lattice:
     FamName: BPM_010
     Class: Monitor
@@ -1050,7 +1050,7 @@ BPM_010:
     S_pos: 43.7
     Cell: 10
 COR_010:
-  UUID: COR_010_a68a73b307f1433aa420a1c7da0f829e
+  UUID: COR_010
   Lattice:
     FamName: COR_010
     Class: Multipole
@@ -1065,7 +1065,7 @@ COR_010:
     S_pos: 43.7
     Cell: 10
 B_019:
-  UUID: B_019_1191ed5588124131b728c6a8ccd81af3
+  UUID: B_019
   Lattice:
     FamName: B_019
     Class: Bend
@@ -1079,7 +1079,7 @@ B_019:
     S_pos: 44.1
     Cell: 10
 QD_010:
-  UUID: QD_010_d28b40ccd1d647709cea35bad805fbda
+  UUID: QD_010
   Lattice:
     FamName: QD_010
     Class: Quadrupole
@@ -1093,7 +1093,7 @@ QD_010:
     S_pos: 45.6
     Cell: 10
 SD_010:
-  UUID: SD_010_af2dbed722e74675973ab7fd2312ccf8
+  UUID: SD_010
   Lattice:
     FamName: SD_010
     Class: Sextupole
@@ -1107,7 +1107,7 @@ SD_010:
     S_pos: 46.0
     Cell: 10
 B_020:
-  UUID: B_020_f8ca0a3e66104b929426cb117c5a33d6
+  UUID: B_020
   Lattice:
     FamName: B_020
     Class: Bend
@@ -1121,7 +1121,7 @@ B_020:
     S_pos: 46.5
     Cell: 10
 QF_011:
-  UUID: QF_011_24042a2d336945b2b6fdc06376b57e0e
+  UUID: QF_011
   Lattice:
     FamName: QF_011
     Class: Quadrupole
@@ -1135,7 +1135,7 @@ QF_011:
     S_pos: 48.0
     Cell: 11
 SF_011:
-  UUID: SF_011_4ab4d5bb6e65417c84fe213fedd60f2d
+  UUID: SF_011
   Lattice:
     FamName: SF_011
     Class: Sextupole
@@ -1149,7 +1149,7 @@ SF_011:
     S_pos: 48.4
     Cell: 11
 BPM_011:
-  UUID: BPM_011_1606a2e9abd54b90a56acee83d55911f
+  UUID: BPM_011
   Lattice:
     FamName: BPM_011
     Class: Monitor
@@ -1161,7 +1161,7 @@ BPM_011:
     S_pos: 48.5
     Cell: 11
 COR_011:
-  UUID: COR_011_9c43dd897fac431f81f41127763bc3f8
+  UUID: COR_011
   Lattice:
     FamName: COR_011
     Class: Multipole
@@ -1176,7 +1176,7 @@ COR_011:
     S_pos: 48.5
     Cell: 11
 B_021:
-  UUID: B_021_a325cec6f15d4836a36365ae54c2a62c
+  UUID: B_021
   Lattice:
     FamName: B_021
     Class: Bend
@@ -1190,7 +1190,7 @@ B_021:
     S_pos: 48.9
     Cell: 11
 QD_011:
-  UUID: QD_011_a43c3d78c9c44a3caae4c56150e32eeb
+  UUID: QD_011
   Lattice:
     FamName: QD_011
     Class: Quadrupole
@@ -1204,7 +1204,7 @@ QD_011:
     S_pos: 50.4
     Cell: 11
 SD_011:
-  UUID: SD_011_ba88cba809374b3bbfde041ac36c8952
+  UUID: SD_011
   Lattice:
     FamName: SD_011
     Class: Sextupole
@@ -1218,7 +1218,7 @@ SD_011:
     S_pos: 50.8
     Cell: 11
 B_022:
-  UUID: B_022_82734024efc24119879fbd61d72dfc6f
+  UUID: B_022
   Lattice:
     FamName: B_022
     Class: Bend
@@ -1232,7 +1232,7 @@ B_022:
     S_pos: 51.3
     Cell: 11
 QF_012:
-  UUID: QF_012_bf99c63cf126498e9a7a58f1f5ac8443
+  UUID: QF_012
   Lattice:
     FamName: QF_012
     Class: Quadrupole
@@ -1246,7 +1246,7 @@ QF_012:
     S_pos: 52.8
     Cell: 12
 SF_012:
-  UUID: SF_012_cfb308c45f9b465f8c15b8c69ad42d91
+  UUID: SF_012
   Lattice:
     FamName: SF_012
     Class: Sextupole
@@ -1260,7 +1260,7 @@ SF_012:
     S_pos: 53.2
     Cell: 12
 BPM_012:
-  UUID: BPM_012_2422ef8fcfc24691ba49be86e159639e
+  UUID: BPM_012
   Lattice:
     FamName: BPM_012
     Class: Monitor
@@ -1272,7 +1272,7 @@ BPM_012:
     S_pos: 53.3
     Cell: 12
 COR_012:
-  UUID: COR_012_0fcbaaf1028c452eaab07ac2e47473b9
+  UUID: COR_012
   Lattice:
     FamName: COR_012
     Class: Multipole
@@ -1287,7 +1287,7 @@ COR_012:
     S_pos: 53.3
     Cell: 12
 B_023:
-  UUID: B_023_49a142437ee648569965391e4d0aac65
+  UUID: B_023
   Lattice:
     FamName: B_023
     Class: Bend
@@ -1301,7 +1301,7 @@ B_023:
     S_pos: 53.7
     Cell: 12
 QD_012:
-  UUID: QD_012_e6ec59256b73497481a12b472924f6c5
+  UUID: QD_012
   Lattice:
     FamName: QD_012
     Class: Quadrupole
@@ -1315,7 +1315,7 @@ QD_012:
     S_pos: 55.2
     Cell: 12
 SD_012:
-  UUID: SD_012_a30bcdb9f573401d92b319f3b654ff93
+  UUID: SD_012
   Lattice:
     FamName: SD_012
     Class: Sextupole
@@ -1329,7 +1329,7 @@ SD_012:
     S_pos: 55.6
     Cell: 12
 B_024:
-  UUID: B_024_5d7fc585011e44c6989eb496839c79c5
+  UUID: B_024
   Lattice:
     FamName: B_024
     Class: Bend
@@ -1343,7 +1343,7 @@ B_024:
     S_pos: 56.1
     Cell: 12
 QF_013:
-  UUID: QF_013_8d185c5d960945f9b787d068a311466a
+  UUID: QF_013
   Lattice:
     FamName: QF_013
     Class: Quadrupole
@@ -1357,7 +1357,7 @@ QF_013:
     S_pos: 57.6
     Cell: 13
 SF_013:
-  UUID: SF_013_06d473a9d99945aea183710119b271b8
+  UUID: SF_013
   Lattice:
     FamName: SF_013
     Class: Sextupole
@@ -1371,7 +1371,7 @@ SF_013:
     S_pos: 58.0
     Cell: 13
 BPM_013:
-  UUID: BPM_013_33430b62f88b401e9d35ce2d45e3ccd0
+  UUID: BPM_013
   Lattice:
     FamName: BPM_013
     Class: Monitor
@@ -1383,7 +1383,7 @@ BPM_013:
     S_pos: 58.1
     Cell: 13
 COR_013:
-  UUID: COR_013_75ec65eca2b74a9881b3f24929cce95d
+  UUID: COR_013
   Lattice:
     FamName: COR_013
     Class: Multipole
@@ -1398,7 +1398,7 @@ COR_013:
     S_pos: 58.1
     Cell: 13
 B_025:
-  UUID: B_025_76439f542aaa4a4da1d06a8f6d20d000
+  UUID: B_025
   Lattice:
     FamName: B_025
     Class: Bend
@@ -1412,7 +1412,7 @@ B_025:
     S_pos: 58.5
     Cell: 13
 QD_013:
-  UUID: QD_013_a60f228881294148ab165f1a1751166d
+  UUID: QD_013
   Lattice:
     FamName: QD_013
     Class: Quadrupole
@@ -1426,7 +1426,7 @@ QD_013:
     S_pos: 60.0
     Cell: 13
 SD_013:
-  UUID: SD_013_70f532ea96d04d35ab6f1f290b9a53af
+  UUID: SD_013
   Lattice:
     FamName: SD_013
     Class: Sextupole
@@ -1440,7 +1440,7 @@ SD_013:
     S_pos: 60.4
     Cell: 13
 B_026:
-  UUID: B_026_0fc7dbf92c3a4793afc210f5b8591da9
+  UUID: B_026
   Lattice:
     FamName: B_026
     Class: Bend
@@ -1454,7 +1454,7 @@ B_026:
     S_pos: 60.9
     Cell: 13
 QF_014:
-  UUID: QF_014_6b3c29fcf77a48b68e034b836362b5f2
+  UUID: QF_014
   Lattice:
     FamName: QF_014
     Class: Quadrupole
@@ -1468,7 +1468,7 @@ QF_014:
     S_pos: 62.4
     Cell: 14
 SF_014:
-  UUID: SF_014_476143f7c68e48b381c83cc6721c1b01
+  UUID: SF_014
   Lattice:
     FamName: SF_014
     Class: Sextupole
@@ -1482,7 +1482,7 @@ SF_014:
     S_pos: 62.8
     Cell: 14
 BPM_014:
-  UUID: BPM_014_942374d7381d4683af58da318dc3d2b5
+  UUID: BPM_014
   Lattice:
     FamName: BPM_014
     Class: Monitor
@@ -1494,7 +1494,7 @@ BPM_014:
     S_pos: 62.9
     Cell: 14
 COR_014:
-  UUID: COR_014_1041dd109c4c4b1e943b93fcbd9b8c0f
+  UUID: COR_014
   Lattice:
     FamName: COR_014
     Class: Multipole
@@ -1509,7 +1509,7 @@ COR_014:
     S_pos: 62.9
     Cell: 14
 B_027:
-  UUID: B_027_6d150ae5dc37451b98be1f3607bf77b4
+  UUID: B_027
   Lattice:
     FamName: B_027
     Class: Bend
@@ -1523,7 +1523,7 @@ B_027:
     S_pos: 63.3
     Cell: 14
 QD_014:
-  UUID: QD_014_5c97788060d141faab00ab952934e405
+  UUID: QD_014
   Lattice:
     FamName: QD_014
     Class: Quadrupole
@@ -1537,7 +1537,7 @@ QD_014:
     S_pos: 64.8
     Cell: 14
 SD_014:
-  UUID: SD_014_2d9751d7e0a54092b924c403f690d79c
+  UUID: SD_014
   Lattice:
     FamName: SD_014
     Class: Sextupole
@@ -1551,7 +1551,7 @@ SD_014:
     S_pos: 65.2
     Cell: 14
 B_028:
-  UUID: B_028_a9303ce9a1a740b9960a54d1944ff5a4
+  UUID: B_028
   Lattice:
     FamName: B_028
     Class: Bend
@@ -1565,7 +1565,7 @@ B_028:
     S_pos: 65.7
     Cell: 14
 QF_015:
-  UUID: QF_015_1471d44e166146e1b1baeaa51fc9af02
+  UUID: QF_015
   Lattice:
     FamName: QF_015
     Class: Quadrupole
@@ -1579,7 +1579,7 @@ QF_015:
     S_pos: 67.2
     Cell: 15
 SF_015:
-  UUID: SF_015_eb58dc186ce343ebb3af6db93ac09d58
+  UUID: SF_015
   Lattice:
     FamName: SF_015
     Class: Sextupole
@@ -1593,7 +1593,7 @@ SF_015:
     S_pos: 67.6
     Cell: 15
 BPM_015:
-  UUID: BPM_015_78645ed8259d4bcbb4eacbc6941d047e
+  UUID: BPM_015
   Lattice:
     FamName: BPM_015
     Class: Monitor
@@ -1605,7 +1605,7 @@ BPM_015:
     S_pos: 67.7
     Cell: 15
 COR_015:
-  UUID: COR_015_f386ead7438a4d248f5850364f7a215b
+  UUID: COR_015
   Lattice:
     FamName: COR_015
     Class: Multipole
@@ -1620,7 +1620,7 @@ COR_015:
     S_pos: 67.7
     Cell: 15
 B_029:
-  UUID: B_029_9908d63194b54e1d88a7138080fadf14
+  UUID: B_029
   Lattice:
     FamName: B_029
     Class: Bend
@@ -1634,7 +1634,7 @@ B_029:
     S_pos: 68.1
     Cell: 15
 QD_015:
-  UUID: QD_015_374a315b60854bb6b61faa29e28bb806
+  UUID: QD_015
   Lattice:
     FamName: QD_015
     Class: Quadrupole
@@ -1648,7 +1648,7 @@ QD_015:
     S_pos: 69.6
     Cell: 15
 SD_015:
-  UUID: SD_015_3c0aee9958974c00b81461bc1e7133ce
+  UUID: SD_015
   Lattice:
     FamName: SD_015
     Class: Sextupole
@@ -1662,7 +1662,7 @@ SD_015:
     S_pos: 70.0
     Cell: 15
 B_030:
-  UUID: B_030_a89961119fbd47e1973f045b2ff01ae4
+  UUID: B_030
   Lattice:
     FamName: B_030
     Class: Bend
@@ -1676,7 +1676,7 @@ B_030:
     S_pos: 70.5
     Cell: 15
 QF_016:
-  UUID: QF_016_728ed73c842141f788fac58d20695da0
+  UUID: QF_016
   Lattice:
     FamName: QF_016
     Class: Quadrupole
@@ -1690,7 +1690,7 @@ QF_016:
     S_pos: 72.0
     Cell: 16
 SF_016:
-  UUID: SF_016_fadc3f0ba9e74039becfa929d7ebe8dc
+  UUID: SF_016
   Lattice:
     FamName: SF_016
     Class: Sextupole
@@ -1704,7 +1704,7 @@ SF_016:
     S_pos: 72.4
     Cell: 16
 BPM_016:
-  UUID: BPM_016_9a07fd137b294cfc9a920c56551cfe79
+  UUID: BPM_016
   Lattice:
     FamName: BPM_016
     Class: Monitor
@@ -1716,7 +1716,7 @@ BPM_016:
     S_pos: 72.5
     Cell: 16
 COR_016:
-  UUID: COR_016_5dea0eada2984432aeb6637ed6f7afe9
+  UUID: COR_016
   Lattice:
     FamName: COR_016
     Class: Multipole
@@ -1731,7 +1731,7 @@ COR_016:
     S_pos: 72.5
     Cell: 16
 B_031:
-  UUID: B_031_f2431d5924d34407be7eea25773ebe61
+  UUID: B_031
   Lattice:
     FamName: B_031
     Class: Bend
@@ -1745,7 +1745,7 @@ B_031:
     S_pos: 72.9
     Cell: 16
 QD_016:
-  UUID: QD_016_5728a761514042e2bfdb92a6ca93a393
+  UUID: QD_016
   Lattice:
     FamName: QD_016
     Class: Quadrupole
@@ -1759,7 +1759,7 @@ QD_016:
     S_pos: 74.4
     Cell: 16
 SD_016:
-  UUID: SD_016_f9ef0fa336aa48a0a777a71123b1ade6
+  UUID: SD_016
   Lattice:
     FamName: SD_016
     Class: Sextupole
@@ -1773,7 +1773,7 @@ SD_016:
     S_pos: 74.8
     Cell: 16
 B_032:
-  UUID: B_032_f3576e7be1b74b39bb0cdb62b065de99
+  UUID: B_032
   Lattice:
     FamName: B_032
     Class: Bend

@@ -10,7 +10,7 @@
       "Frequency": 351319286.71874994,
       "HarmNumber": 90,
       "TimeLag": 0.0,
-      "UUID": "RF_001_6363b723d15843ab9974ebb67784d638",
+      "UUID": "RF_001",
       "Voltage": 300000.0,
       "Class": "RFCavity"
     },
@@ -28,7 +28,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_001_314d440dcc3348c687785c80e67fce27",
+      "UUID": "QF_001",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -48,14 +48,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_001_edcc66b4534e41e992c99b61387c7b23",
+      "UUID": "SF_001",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_001",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_001_13747cd19dcd464597a319938cdd1451",
+      "UUID": "BPM_001",
       "Class": "Monitor"
     },
     {
@@ -72,7 +72,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_001_40245a63817f45fdbaf0588fc373304c",
+      "UUID": "COR_001",
       "Class": "Multipole"
     },
     {
@@ -98,7 +98,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_001_5f1afe65b5f740b29a48bf437414f672",
+      "UUID": "B_001",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -122,7 +122,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_001_b9826a8c73d642d6889df2a7537cb24c",
+      "UUID": "QD_001",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -142,7 +142,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_001_0f91beb1c65a4c0c9662555dd6a83244",
+      "UUID": "SD_001",
       "Class": "Sextupole"
     },
     {
@@ -168,7 +168,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_002_a736eb95b9f641fa95b16a7bc843d278",
+      "UUID": "B_002",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -192,7 +192,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_002_77738075da634369ad1751e6263f2a65",
+      "UUID": "QF_002",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -212,14 +212,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_002_adf891f146274708a9610ae81766d5ac",
+      "UUID": "SF_002",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_002",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_002_6811d1cdf38447a5994ff1c46e8c0fe9",
+      "UUID": "BPM_002",
       "Class": "Monitor"
     },
     {
@@ -236,7 +236,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_002_da1aed18178646bfa755086e61402f11",
+      "UUID": "COR_002",
       "Class": "Multipole"
     },
     {
@@ -262,7 +262,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_003_13470d5d861841a684577a3208b8cae2",
+      "UUID": "B_003",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -286,7 +286,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_002_9ddbc1b0ac004bb88a7806a2f45d34dd",
+      "UUID": "QD_002",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -306,7 +306,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_002_69ddf4e0a6cb4c10ab214b53ed521ff3",
+      "UUID": "SD_002",
       "Class": "Sextupole"
     },
     {
@@ -332,7 +332,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_004_626a5b828edc4ed8b341d754174a5b2d",
+      "UUID": "B_004",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -356,7 +356,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_003_fdc3743f439640b8b6b8edeeaee4b3b6",
+      "UUID": "QF_003",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -376,14 +376,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_003_675b74daa1d947668de7bac4e7a2d389",
+      "UUID": "SF_003",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_003",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_003_0a8398e87d9546648c19c253b4111a92",
+      "UUID": "BPM_003",
       "Class": "Monitor"
     },
     {
@@ -400,7 +400,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_003_a47e4afce05e42c7b3bbda1b0f49b62a",
+      "UUID": "COR_003",
       "Class": "Multipole"
     },
     {
@@ -426,7 +426,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_005_51e275d1f4c04653a62f83a03e837afa",
+      "UUID": "B_005",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -450,7 +450,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_003_f3adbe2c1b3b4e96b98e8487963b2ab7",
+      "UUID": "QD_003",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -470,7 +470,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_003_8847f52a1ab2413987b864de9b877ed2",
+      "UUID": "SD_003",
       "Class": "Sextupole"
     },
     {
@@ -496,7 +496,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_006_efa60311fb494a26b65a95d174d1ab88",
+      "UUID": "B_006",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -520,7 +520,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_004_3d6633b2daab4497946456e04a20ff53",
+      "UUID": "QF_004",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -540,14 +540,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_004_994280b85ca5424c97b5a922b7865406",
+      "UUID": "SF_004",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_004",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_004_130263628b354604a3776421daf9003e",
+      "UUID": "BPM_004",
       "Class": "Monitor"
     },
     {
@@ -564,7 +564,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_004_df8065c70f8343b39be055d3baa89b6f",
+      "UUID": "COR_004",
       "Class": "Multipole"
     },
     {
@@ -590,7 +590,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_007_e171d6d45d0a40b0a331ab89d7f64deb",
+      "UUID": "B_007",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -614,7 +614,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_004_0d27ccc7536744e5bfa666ace4b7bbce",
+      "UUID": "QD_004",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -634,7 +634,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_004_9dd9281637544366981ea51cd482bd24",
+      "UUID": "SD_004",
       "Class": "Sextupole"
     },
     {
@@ -660,7 +660,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_008_2ab18de726d24f378c236ce5b424e0ce",
+      "UUID": "B_008",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -684,7 +684,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_005_eedbaf0b897245a7ae902a3737c9448a",
+      "UUID": "QF_005",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -704,14 +704,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_005_d03c9d8336ea467a86e8e734b58230a7",
+      "UUID": "SF_005",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_005",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_005_48a3a7f9195a487ebcbd1aa6796f04e2",
+      "UUID": "BPM_005",
       "Class": "Monitor"
     },
     {
@@ -728,7 +728,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_005_9215a7c55cca49a7ab589783360624ce",
+      "UUID": "COR_005",
       "Class": "Multipole"
     },
     {
@@ -754,7 +754,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_009_55172c2c1e354e249c22fec20ed1a342",
+      "UUID": "B_009",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -778,7 +778,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_005_86031f371c6e4a03ad193b5fc776a4c2",
+      "UUID": "QD_005",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -798,7 +798,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_005_8f33822faf52429f9fa9375100b90fb7",
+      "UUID": "SD_005",
       "Class": "Sextupole"
     },
     {
@@ -824,7 +824,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_010_a9b4e9f8ae2a4e919ff30659c4e30171",
+      "UUID": "B_010",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -848,7 +848,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_006_ac8563ac0cf549d4a3a931704888d081",
+      "UUID": "QF_006",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -868,14 +868,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_006_5fdcf7038343474f9569065f5df17370",
+      "UUID": "SF_006",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_006",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_006_2875c012f3454392ad4575cd9586780a",
+      "UUID": "BPM_006",
       "Class": "Monitor"
     },
     {
@@ -892,7 +892,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_006_dd5a91ce11124e60bbb9df93a10d6b11",
+      "UUID": "COR_006",
       "Class": "Multipole"
     },
     {
@@ -918,7 +918,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_011_3d8537487c4a475b8ef9d85a64525cfb",
+      "UUID": "B_011",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -942,7 +942,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_006_baaa109b7de4464e92dbc31cc1aa6f73",
+      "UUID": "QD_006",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -962,7 +962,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_006_9a910185762c46698c0dc7f85c81843b",
+      "UUID": "SD_006",
       "Class": "Sextupole"
     },
     {
@@ -988,7 +988,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_012_0b859d92d0d24ae9ac80daa9f7be887b",
+      "UUID": "B_012",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -1012,7 +1012,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_007_85bc483c3eaa4e0ba633f65a5c8340a7",
+      "UUID": "QF_007",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -1032,14 +1032,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_007_4ac2e46aa5bb4c38a31b271aca565134",
+      "UUID": "SF_007",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_007",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_007_6b8c2d93530940baaef053b10d14b66c",
+      "UUID": "BPM_007",
       "Class": "Monitor"
     },
     {
@@ -1056,7 +1056,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_007_3cd2e2d7f28d442abcd1b8039f78efa5",
+      "UUID": "COR_007",
       "Class": "Multipole"
     },
     {
@@ -1082,7 +1082,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_013_fa5b9deca6c0447f98ffc22b894d4b2d",
+      "UUID": "B_013",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -1106,7 +1106,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_007_423c1d2bd5704dc09df2459a5e88c6e1",
+      "UUID": "QD_007",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -1126,7 +1126,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_007_8073281429e249bf8d476386a06e71d6",
+      "UUID": "SD_007",
       "Class": "Sextupole"
     },
     {
@@ -1152,7 +1152,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_014_e3b3cd7118734d9a8f772cd2e59329b0",
+      "UUID": "B_014",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -1176,7 +1176,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_008_9d30486816f14f42b71899a138737b22",
+      "UUID": "QF_008",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -1196,14 +1196,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_008_3242d83833824998b6f5ce551917a149",
+      "UUID": "SF_008",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_008",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_008_0a034d2069ff4fa59d26b7573e5d0011",
+      "UUID": "BPM_008",
       "Class": "Monitor"
     },
     {
@@ -1220,7 +1220,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_008_7a8f6a10d6c147b0affe509482741943",
+      "UUID": "COR_008",
       "Class": "Multipole"
     },
     {
@@ -1246,7 +1246,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_015_debe465500ea450caec6c20c033a61f5",
+      "UUID": "B_015",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -1270,7 +1270,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_008_39a76afbc5c0448fbdfb80941bd62551",
+      "UUID": "QD_008",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -1290,7 +1290,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_008_78e4371b8fd54fd09898b0f1a0d6811f",
+      "UUID": "SD_008",
       "Class": "Sextupole"
     },
     {
@@ -1316,7 +1316,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_016_cb7ff66004864777ab2d1cb51a320cd0",
+      "UUID": "B_016",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -1340,7 +1340,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_009_a82e998e865c43c382ee98fa60aa2200",
+      "UUID": "QF_009",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -1360,14 +1360,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_009_b8699ab8bc87481a9e399fe32c086ce3",
+      "UUID": "SF_009",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_009",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_009_71951baace814f4191ab44dd6022744c",
+      "UUID": "BPM_009",
       "Class": "Monitor"
     },
     {
@@ -1384,7 +1384,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_009_72d51334bf7847e18181f4704188dd84",
+      "UUID": "COR_009",
       "Class": "Multipole"
     },
     {
@@ -1410,7 +1410,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_017_84e24e15c84d41b4ac56d69800f0f01a",
+      "UUID": "B_017",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -1434,7 +1434,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_009_0954ff1f957d4496b5155f1798ae4509",
+      "UUID": "QD_009",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -1454,7 +1454,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_009_6fc6326d3a3e4d53b5fafa0cb8e51259",
+      "UUID": "SD_009",
       "Class": "Sextupole"
     },
     {
@@ -1480,7 +1480,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_018_af1cdae072a34116bb7a0d5bbe897094",
+      "UUID": "B_018",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -1504,7 +1504,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_010_64354ff742804522aa304c228f7cc64f",
+      "UUID": "QF_010",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -1524,14 +1524,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_010_b463a021c7bb4d5b87981e9bb0a65b39",
+      "UUID": "SF_010",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_010",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_010_5aa612b6346d4cfda4c59e902d924cb0",
+      "UUID": "BPM_010",
       "Class": "Monitor"
     },
     {
@@ -1548,7 +1548,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_010_a68a73b307f1433aa420a1c7da0f829e",
+      "UUID": "COR_010",
       "Class": "Multipole"
     },
     {
@@ -1574,7 +1574,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_019_1191ed5588124131b728c6a8ccd81af3",
+      "UUID": "B_019",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -1598,7 +1598,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_010_d28b40ccd1d647709cea35bad805fbda",
+      "UUID": "QD_010",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -1618,7 +1618,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_010_af2dbed722e74675973ab7fd2312ccf8",
+      "UUID": "SD_010",
       "Class": "Sextupole"
     },
     {
@@ -1644,7 +1644,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_020_f8ca0a3e66104b929426cb117c5a33d6",
+      "UUID": "B_020",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -1668,7 +1668,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_011_24042a2d336945b2b6fdc06376b57e0e",
+      "UUID": "QF_011",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -1688,14 +1688,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_011_4ab4d5bb6e65417c84fe213fedd60f2d",
+      "UUID": "SF_011",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_011",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_011_1606a2e9abd54b90a56acee83d55911f",
+      "UUID": "BPM_011",
       "Class": "Monitor"
     },
     {
@@ -1712,7 +1712,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_011_9c43dd897fac431f81f41127763bc3f8",
+      "UUID": "COR_011",
       "Class": "Multipole"
     },
     {
@@ -1738,7 +1738,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_021_a325cec6f15d4836a36365ae54c2a62c",
+      "UUID": "B_021",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -1762,7 +1762,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_011_a43c3d78c9c44a3caae4c56150e32eeb",
+      "UUID": "QD_011",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -1782,7 +1782,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_011_ba88cba809374b3bbfde041ac36c8952",
+      "UUID": "SD_011",
       "Class": "Sextupole"
     },
     {
@@ -1808,7 +1808,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_022_82734024efc24119879fbd61d72dfc6f",
+      "UUID": "B_022",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -1832,7 +1832,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_012_bf99c63cf126498e9a7a58f1f5ac8443",
+      "UUID": "QF_012",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -1852,14 +1852,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_012_cfb308c45f9b465f8c15b8c69ad42d91",
+      "UUID": "SF_012",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_012",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_012_2422ef8fcfc24691ba49be86e159639e",
+      "UUID": "BPM_012",
       "Class": "Monitor"
     },
     {
@@ -1876,7 +1876,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_012_0fcbaaf1028c452eaab07ac2e47473b9",
+      "UUID": "COR_012",
       "Class": "Multipole"
     },
     {
@@ -1902,7 +1902,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_023_49a142437ee648569965391e4d0aac65",
+      "UUID": "B_023",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -1926,7 +1926,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_012_e6ec59256b73497481a12b472924f6c5",
+      "UUID": "QD_012",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -1946,7 +1946,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_012_a30bcdb9f573401d92b319f3b654ff93",
+      "UUID": "SD_012",
       "Class": "Sextupole"
     },
     {
@@ -1972,7 +1972,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_024_5d7fc585011e44c6989eb496839c79c5",
+      "UUID": "B_024",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -1996,7 +1996,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_013_8d185c5d960945f9b787d068a311466a",
+      "UUID": "QF_013",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -2016,14 +2016,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_013_06d473a9d99945aea183710119b271b8",
+      "UUID": "SF_013",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_013",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_013_33430b62f88b401e9d35ce2d45e3ccd0",
+      "UUID": "BPM_013",
       "Class": "Monitor"
     },
     {
@@ -2040,7 +2040,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_013_75ec65eca2b74a9881b3f24929cce95d",
+      "UUID": "COR_013",
       "Class": "Multipole"
     },
     {
@@ -2066,7 +2066,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_025_76439f542aaa4a4da1d06a8f6d20d000",
+      "UUID": "B_025",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -2090,7 +2090,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_013_a60f228881294148ab165f1a1751166d",
+      "UUID": "QD_013",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -2110,7 +2110,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_013_70f532ea96d04d35ab6f1f290b9a53af",
+      "UUID": "SD_013",
       "Class": "Sextupole"
     },
     {
@@ -2136,7 +2136,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_026_0fc7dbf92c3a4793afc210f5b8591da9",
+      "UUID": "B_026",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -2160,7 +2160,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_014_6b3c29fcf77a48b68e034b836362b5f2",
+      "UUID": "QF_014",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -2180,14 +2180,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_014_476143f7c68e48b381c83cc6721c1b01",
+      "UUID": "SF_014",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_014",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_014_942374d7381d4683af58da318dc3d2b5",
+      "UUID": "BPM_014",
       "Class": "Monitor"
     },
     {
@@ -2204,7 +2204,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_014_1041dd109c4c4b1e943b93fcbd9b8c0f",
+      "UUID": "COR_014",
       "Class": "Multipole"
     },
     {
@@ -2230,7 +2230,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_027_6d150ae5dc37451b98be1f3607bf77b4",
+      "UUID": "B_027",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -2254,7 +2254,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_014_5c97788060d141faab00ab952934e405",
+      "UUID": "QD_014",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -2274,7 +2274,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_014_2d9751d7e0a54092b924c403f690d79c",
+      "UUID": "SD_014",
       "Class": "Sextupole"
     },
     {
@@ -2300,7 +2300,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_028_a9303ce9a1a740b9960a54d1944ff5a4",
+      "UUID": "B_028",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -2324,7 +2324,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_015_1471d44e166146e1b1baeaa51fc9af02",
+      "UUID": "QF_015",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -2344,14 +2344,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_015_eb58dc186ce343ebb3af6db93ac09d58",
+      "UUID": "SF_015",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_015",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_015_78645ed8259d4bcbb4eacbc6941d047e",
+      "UUID": "BPM_015",
       "Class": "Monitor"
     },
     {
@@ -2368,7 +2368,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_015_f386ead7438a4d248f5850364f7a215b",
+      "UUID": "COR_015",
       "Class": "Multipole"
     },
     {
@@ -2394,7 +2394,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_029_9908d63194b54e1d88a7138080fadf14",
+      "UUID": "B_029",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -2418,7 +2418,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_015_374a315b60854bb6b61faa29e28bb806",
+      "UUID": "QD_015",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -2438,7 +2438,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_015_3c0aee9958974c00b81461bc1e7133ce",
+      "UUID": "SD_015",
       "Class": "Sextupole"
     },
     {
@@ -2464,7 +2464,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_030_a89961119fbd47e1973f045b2ff01ae4",
+      "UUID": "B_030",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -2488,7 +2488,7 @@
         0.0,
         1.2580503144087112
       ],
-      "UUID": "QF_016_728ed73c842141f788fac58d20695da0",
+      "UUID": "QF_016",
       "K": 1.2580503144087112,
       "Class": "Quadrupole"
     },
@@ -2508,14 +2508,14 @@
         0.0,
         2.1149384071729247
       ],
-      "UUID": "SF_016_fadc3f0ba9e74039becfa929d7ebe8dc",
+      "UUID": "SF_016",
       "Class": "Sextupole"
     },
     {
       "FamName": "BPM_016",
       "Length": 0.0,
       "PassMethod": "IdentityPass",
-      "UUID": "BPM_016_9a07fd137b294cfc9a920c56551cfe79",
+      "UUID": "BPM_016",
       "Class": "Monitor"
     },
     {
@@ -2532,7 +2532,7 @@
         0.0,
         0.0
       ],
-      "UUID": "COR_016_5dea0eada2984432aeb6637ed6f7afe9",
+      "UUID": "COR_016",
       "Class": "Multipole"
     },
     {
@@ -2558,7 +2558,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_031_f2431d5924d34407be7eea25773ebe61",
+      "UUID": "B_031",
       "K": 0.0,
       "Class": "Bend"
     },
@@ -2582,7 +2582,7 @@
         0.0,
         -1.3094253462460304
       ],
-      "UUID": "QD_016_5728a761514042e2bfdb92a6ca93a393",
+      "UUID": "QD_016",
       "K": -1.3094253462460304,
       "Class": "Quadrupole"
     },
@@ -2602,7 +2602,7 @@
         0.0,
         -3.4137638639939585
       ],
-      "UUID": "SD_016_f9ef0fa336aa48a0a777a71123b1ade6",
+      "UUID": "SD_016",
       "Class": "Sextupole"
     },
     {
@@ -2628,7 +2628,7 @@
         0.0,
         0.0
       ],
-      "UUID": "B_032_f3576e7be1b74b39bb0cdb62b065de99",
+      "UUID": "B_032",
       "K": 0.0,
       "Class": "Bend"
     },
