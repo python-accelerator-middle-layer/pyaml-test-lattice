@@ -1,9 +1,13 @@
 """Automatic registries for packaged lattice and configuration files."""
 
 from collections.abc import Iterator, KeysView
-from importlib.abc import Traversable
 from importlib.resources import files
 from pprint import pformat
+
+try:
+    from importlib.resources.abc import Traversable  # Python 3.12+
+except ImportError:  # Python 3.10 / 3.11
+    from importlib.abc import Traversable
 
 
 class _Registry:
@@ -49,8 +53,8 @@ class _Registry:
             elif entry.is_dir():
                 self._visit(entry, key)
 
-    def __getitem__(self, key: str) -> str:
-        """Return the filesystem path of a packaged resource.
+    def __getitem__(self, key: str) -> Traversable:
+        """Return the packaged resource, ready to be read.
 
         Parameters
         ----------
@@ -59,10 +63,11 @@ class _Registry:
 
         Returns
         -------
-        str
-            Filesystem path to the requested packaged resource.
+        importlib.abc.Traversable
+            The requested packaged resource. Supports ``.read_text()`` and
+            ``.read_bytes()``, and stringifies to its filesystem path.
         """
-        return str(self._files[key])
+        return self._files[key]
 
     def __iter__(self) -> Iterator[str]:
         """Iterate over registered resource paths.
