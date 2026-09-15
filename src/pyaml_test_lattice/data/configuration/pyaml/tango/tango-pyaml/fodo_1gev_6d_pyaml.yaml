@@ -5,7 +5,7 @@ data_folder: /data/store
 energy: 1000000000.0
 simulators:
 - type: pyaml.lattice.simulator
-  lattice: fodo_1gev_6d.json
+  lattice: ${path:../../../../lattice/fodo_1gev_6d.json}
   name: design
   linker:
     type: pyaml.lattice.attribute_linker
@@ -13,12 +13,9 @@ simulators:
 controls:
 - type: tango.pyaml.controlsystem
   name: live
+  tango_host: 127.0.0.1:10000
   catalog: fodo_1gev_6d_pyaml_catalogs.yaml
 arrays:
-- type: pyaml.arrays.magnet
-  name: QF_001
-  elements:
-  - QF_001
 - type: pyaml.arrays.element
   name: Cell1
   elements:
@@ -26,22 +23,8 @@ arrays:
   - SF_001
   - QD_001
   - SD_001
-- type: pyaml.arrays.magnet
-  name: SF_001
-  elements:
-  - SF_001
-- type: pyaml.arrays.magnet
-  name: QD_001
-  elements:
-  - QD_001
-- type: pyaml.arrays.magnet
-  name: SD_001
-  elements:
-  - SD_001
-- type: pyaml.arrays.magnet
-  name: QF_002
-  elements:
-  - QF_002
+  - BPM_001
+  - COR_001
 - type: pyaml.arrays.element
   name: Cell2
   elements:
@@ -49,22 +32,8 @@ arrays:
   - SF_002
   - QD_002
   - SD_002
-- type: pyaml.arrays.magnet
-  name: SF_002
-  elements:
-  - SF_002
-- type: pyaml.arrays.magnet
-  name: QD_002
-  elements:
-  - QD_002
-- type: pyaml.arrays.magnet
-  name: SD_002
-  elements:
-  - SD_002
-- type: pyaml.arrays.magnet
-  name: QF_003
-  elements:
-  - QF_003
+  - BPM_002
+  - COR_002
 - type: pyaml.arrays.element
   name: Cell3
   elements:
@@ -72,22 +41,8 @@ arrays:
   - SF_003
   - QD_003
   - SD_003
-- type: pyaml.arrays.magnet
-  name: SF_003
-  elements:
-  - SF_003
-- type: pyaml.arrays.magnet
-  name: QD_003
-  elements:
-  - QD_003
-- type: pyaml.arrays.magnet
-  name: SD_003
-  elements:
-  - SD_003
-- type: pyaml.arrays.magnet
-  name: QF_004
-  elements:
-  - QF_004
+  - BPM_003
+  - COR_003
 - type: pyaml.arrays.element
   name: Cell4
   elements:
@@ -95,22 +50,8 @@ arrays:
   - SF_004
   - QD_004
   - SD_004
-- type: pyaml.arrays.magnet
-  name: SF_004
-  elements:
-  - SF_004
-- type: pyaml.arrays.magnet
-  name: QD_004
-  elements:
-  - QD_004
-- type: pyaml.arrays.magnet
-  name: SD_004
-  elements:
-  - SD_004
-- type: pyaml.arrays.magnet
-  name: QF_005
-  elements:
-  - QF_005
+  - BPM_004
+  - COR_004
 - type: pyaml.arrays.element
   name: Cell5
   elements:
@@ -118,22 +59,8 @@ arrays:
   - SF_005
   - QD_005
   - SD_005
-- type: pyaml.arrays.magnet
-  name: SF_005
-  elements:
-  - SF_005
-- type: pyaml.arrays.magnet
-  name: QD_005
-  elements:
-  - QD_005
-- type: pyaml.arrays.magnet
-  name: SD_005
-  elements:
-  - SD_005
-- type: pyaml.arrays.magnet
-  name: QF_006
-  elements:
-  - QF_006
+  - BPM_005
+  - COR_005
 - type: pyaml.arrays.element
   name: Cell6
   elements:
@@ -141,22 +68,8 @@ arrays:
   - SF_006
   - QD_006
   - SD_006
-- type: pyaml.arrays.magnet
-  name: SF_006
-  elements:
-  - SF_006
-- type: pyaml.arrays.magnet
-  name: QD_006
-  elements:
-  - QD_006
-- type: pyaml.arrays.magnet
-  name: SD_006
-  elements:
-  - SD_006
-- type: pyaml.arrays.magnet
-  name: QF_007
-  elements:
-  - QF_007
+  - BPM_006
+  - COR_006
 - type: pyaml.arrays.element
   name: Cell7
   elements:
@@ -164,22 +77,8 @@ arrays:
   - SF_007
   - QD_007
   - SD_007
-- type: pyaml.arrays.magnet
-  name: SF_007
-  elements:
-  - SF_007
-- type: pyaml.arrays.magnet
-  name: QD_007
-  elements:
-  - QD_007
-- type: pyaml.arrays.magnet
-  name: SD_007
-  elements:
-  - SD_007
-- type: pyaml.arrays.magnet
-  name: QF_008
-  elements:
-  - QF_008
+  - BPM_007
+  - COR_007
 - type: pyaml.arrays.element
   name: Cell8
   elements:
@@ -187,22 +86,8 @@ arrays:
   - SF_008
   - QD_008
   - SD_008
-- type: pyaml.arrays.magnet
-  name: SF_008
-  elements:
-  - SF_008
-- type: pyaml.arrays.magnet
-  name: QD_008
-  elements:
-  - QD_008
-- type: pyaml.arrays.magnet
-  name: SD_008
-  elements:
-  - SD_008
-- type: pyaml.arrays.magnet
-  name: QF_009
-  elements:
-  - QF_009
+  - BPM_008
+  - COR_008
 - type: pyaml.arrays.element
   name: Cell9
   elements:
@@ -210,22 +95,8 @@ arrays:
   - SF_009
   - QD_009
   - SD_009
-- type: pyaml.arrays.magnet
-  name: SF_009
-  elements:
-  - SF_009
-- type: pyaml.arrays.magnet
-  name: QD_009
-  elements:
-  - QD_009
-- type: pyaml.arrays.magnet
-  name: SD_009
-  elements:
-  - SD_009
-- type: pyaml.arrays.magnet
-  name: QF_010
-  elements:
-  - QF_010
+  - BPM_009
+  - COR_009
 - type: pyaml.arrays.element
   name: Cell10
   elements:
@@ -233,22 +104,8 @@ arrays:
   - SF_010
   - QD_010
   - SD_010
-- type: pyaml.arrays.magnet
-  name: SF_010
-  elements:
-  - SF_010
-- type: pyaml.arrays.magnet
-  name: QD_010
-  elements:
-  - QD_010
-- type: pyaml.arrays.magnet
-  name: SD_010
-  elements:
-  - SD_010
-- type: pyaml.arrays.magnet
-  name: QF_011
-  elements:
-  - QF_011
+  - BPM_010
+  - COR_010
 - type: pyaml.arrays.element
   name: Cell11
   elements:
@@ -256,22 +113,8 @@ arrays:
   - SF_011
   - QD_011
   - SD_011
-- type: pyaml.arrays.magnet
-  name: SF_011
-  elements:
-  - SF_011
-- type: pyaml.arrays.magnet
-  name: QD_011
-  elements:
-  - QD_011
-- type: pyaml.arrays.magnet
-  name: SD_011
-  elements:
-  - SD_011
-- type: pyaml.arrays.magnet
-  name: QF_012
-  elements:
-  - QF_012
+  - BPM_011
+  - COR_011
 - type: pyaml.arrays.element
   name: Cell12
   elements:
@@ -279,22 +122,8 @@ arrays:
   - SF_012
   - QD_012
   - SD_012
-- type: pyaml.arrays.magnet
-  name: SF_012
-  elements:
-  - SF_012
-- type: pyaml.arrays.magnet
-  name: QD_012
-  elements:
-  - QD_012
-- type: pyaml.arrays.magnet
-  name: SD_012
-  elements:
-  - SD_012
-- type: pyaml.arrays.magnet
-  name: QF_013
-  elements:
-  - QF_013
+  - BPM_012
+  - COR_012
 - type: pyaml.arrays.element
   name: Cell13
   elements:
@@ -302,22 +131,8 @@ arrays:
   - SF_013
   - QD_013
   - SD_013
-- type: pyaml.arrays.magnet
-  name: SF_013
-  elements:
-  - SF_013
-- type: pyaml.arrays.magnet
-  name: QD_013
-  elements:
-  - QD_013
-- type: pyaml.arrays.magnet
-  name: SD_013
-  elements:
-  - SD_013
-- type: pyaml.arrays.magnet
-  name: QF_014
-  elements:
-  - QF_014
+  - BPM_013
+  - COR_013
 - type: pyaml.arrays.element
   name: Cell14
   elements:
@@ -325,22 +140,8 @@ arrays:
   - SF_014
   - QD_014
   - SD_014
-- type: pyaml.arrays.magnet
-  name: SF_014
-  elements:
-  - SF_014
-- type: pyaml.arrays.magnet
-  name: QD_014
-  elements:
-  - QD_014
-- type: pyaml.arrays.magnet
-  name: SD_014
-  elements:
-  - SD_014
-- type: pyaml.arrays.magnet
-  name: QF_015
-  elements:
-  - QF_015
+  - BPM_014
+  - COR_014
 - type: pyaml.arrays.element
   name: Cell15
   elements:
@@ -348,22 +149,8 @@ arrays:
   - SF_015
   - QD_015
   - SD_015
-- type: pyaml.arrays.magnet
-  name: SF_015
-  elements:
-  - SF_015
-- type: pyaml.arrays.magnet
-  name: QD_015
-  elements:
-  - QD_015
-- type: pyaml.arrays.magnet
-  name: SD_015
-  elements:
-  - SD_015
-- type: pyaml.arrays.magnet
-  name: QF_016
-  elements:
-  - QF_016
+  - BPM_015
+  - COR_015
 - type: pyaml.arrays.element
   name: Cell16
   elements:
@@ -371,18 +158,100 @@ arrays:
   - SF_016
   - QD_016
   - SD_016
-- type: pyaml.arrays.magnet
-  name: SF_016
+  - BPM_016
+  - COR_016
+- type: pyaml.arrays.bpm
+  name: BPM
   elements:
-  - SF_016
+  - BPM_001
+  - BPM_002
+  - BPM_003
+  - BPM_004
+  - BPM_005
+  - BPM_006
+  - BPM_007
+  - BPM_008
+  - BPM_009
+  - BPM_010
+  - BPM_011
+  - BPM_012
+  - BPM_013
+  - BPM_014
+  - BPM_015
+  - BPM_016
 - type: pyaml.arrays.magnet
-  name: QD_016
+  name: HCorr
   elements:
+  - COR_001.hcorrector
+  - COR_002.hcorrector
+  - COR_003.hcorrector
+  - COR_004.hcorrector
+  - COR_005.hcorrector
+  - COR_006.hcorrector
+  - COR_007.hcorrector
+  - COR_008.hcorrector
+  - COR_009.hcorrector
+  - COR_010.hcorrector
+  - COR_011.hcorrector
+  - COR_012.hcorrector
+  - COR_013.hcorrector
+  - COR_014.hcorrector
+  - COR_015.hcorrector
+  - COR_016.hcorrector
+- type: pyaml.arrays.magnet
+  name: VCorr
+  elements:
+  - COR_001.vcorrector
+  - COR_002.vcorrector
+  - COR_003.vcorrector
+  - COR_004.vcorrector
+  - COR_005.vcorrector
+  - COR_006.vcorrector
+  - COR_007.vcorrector
+  - COR_008.vcorrector
+  - COR_009.vcorrector
+  - COR_010.vcorrector
+  - COR_011.vcorrector
+  - COR_012.vcorrector
+  - COR_013.vcorrector
+  - COR_014.vcorrector
+  - COR_015.vcorrector
+  - COR_016.vcorrector
+- type: pyaml.arrays.magnet
+  name: QForTune
+  elements:
+  - QF_001
+  - QF_002
+  - QF_003
+  - QF_004
+  - QF_005
+  - QF_006
+  - QF_007
+  - QF_008
+  - QF_009
+  - QF_010
+  - QF_011
+  - QF_012
+  - QF_013
+  - QF_014
+  - QF_015
+  - QF_016
+  - QD_001
+  - QD_002
+  - QD_003
+  - QD_004
+  - QD_005
+  - QD_006
+  - QD_007
+  - QD_008
+  - QD_009
+  - QD_010
+  - QD_011
+  - QD_012
+  - QD_013
+  - QD_014
+  - QD_015
   - QD_016
-- type: pyaml.arrays.magnet
-  name: SD_016
-  elements:
-  - SD_016
 devices:
 - type: pyaml.magnet.quadrupole
   name: QF_001
@@ -768,6 +637,358 @@ devices:
     type: pyaml.magnet.identity_model
     unit: 1/m**2
     physics: AN16-AR/EM-SX/SD.01/magnetic_strength
+- type: pyaml.bpm.bpm
+  name: BPM_001
+  x_pos: AN01-AR/DG-EPOS/BPM.01/x
+  y_pos: AN01-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_002
+  x_pos: AN02-AR/DG-EPOS/BPM.01/x
+  y_pos: AN02-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_003
+  x_pos: AN03-AR/DG-EPOS/BPM.01/x
+  y_pos: AN03-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_004
+  x_pos: AN04-AR/DG-EPOS/BPM.01/x
+  y_pos: AN04-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_005
+  x_pos: AN05-AR/DG-EPOS/BPM.01/x
+  y_pos: AN05-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_006
+  x_pos: AN06-AR/DG-EPOS/BPM.01/x
+  y_pos: AN06-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_007
+  x_pos: AN07-AR/DG-EPOS/BPM.01/x
+  y_pos: AN07-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_008
+  x_pos: AN08-AR/DG-EPOS/BPM.01/x
+  y_pos: AN08-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_009
+  x_pos: AN09-AR/DG-EPOS/BPM.01/x
+  y_pos: AN09-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_010
+  x_pos: AN10-AR/DG-EPOS/BPM.01/x
+  y_pos: AN10-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_011
+  x_pos: AN11-AR/DG-EPOS/BPM.01/x
+  y_pos: AN11-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_012
+  x_pos: AN12-AR/DG-EPOS/BPM.01/x
+  y_pos: AN12-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_013
+  x_pos: AN13-AR/DG-EPOS/BPM.01/x
+  y_pos: AN13-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_014
+  x_pos: AN14-AR/DG-EPOS/BPM.01/x
+  y_pos: AN14-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_015
+  x_pos: AN15-AR/DG-EPOS/BPM.01/x
+  y_pos: AN15-AR/DG-EPOS/BPM.01/y
+- type: pyaml.bpm.bpm
+  name: BPM_016
+  x_pos: AN16-AR/DG-EPOS/BPM.01/x
+  y_pos: AN16-AR/DG-EPOS/BPM.01/y
+- type: pyaml.magnet.cfm_magnet
+  name: COR_001
+  mapping:
+  - - B0
+    - COR_001.hcorrector
+  - - A0
+    - COR_001.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN01-AR/EM-COR/CH.01/magnetic_strength
+    - AN01-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_002
+  mapping:
+  - - B0
+    - COR_002.hcorrector
+  - - A0
+    - COR_002.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN02-AR/EM-COR/CH.01/magnetic_strength
+    - AN02-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_003
+  mapping:
+  - - B0
+    - COR_003.hcorrector
+  - - A0
+    - COR_003.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN03-AR/EM-COR/CH.01/magnetic_strength
+    - AN03-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_004
+  mapping:
+  - - B0
+    - COR_004.hcorrector
+  - - A0
+    - COR_004.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN04-AR/EM-COR/CH.01/magnetic_strength
+    - AN04-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_005
+  mapping:
+  - - B0
+    - COR_005.hcorrector
+  - - A0
+    - COR_005.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN05-AR/EM-COR/CH.01/magnetic_strength
+    - AN05-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_006
+  mapping:
+  - - B0
+    - COR_006.hcorrector
+  - - A0
+    - COR_006.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN06-AR/EM-COR/CH.01/magnetic_strength
+    - AN06-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_007
+  mapping:
+  - - B0
+    - COR_007.hcorrector
+  - - A0
+    - COR_007.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN07-AR/EM-COR/CH.01/magnetic_strength
+    - AN07-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_008
+  mapping:
+  - - B0
+    - COR_008.hcorrector
+  - - A0
+    - COR_008.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN08-AR/EM-COR/CH.01/magnetic_strength
+    - AN08-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_009
+  mapping:
+  - - B0
+    - COR_009.hcorrector
+  - - A0
+    - COR_009.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN09-AR/EM-COR/CH.01/magnetic_strength
+    - AN09-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_010
+  mapping:
+  - - B0
+    - COR_010.hcorrector
+  - - A0
+    - COR_010.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN10-AR/EM-COR/CH.01/magnetic_strength
+    - AN10-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_011
+  mapping:
+  - - B0
+    - COR_011.hcorrector
+  - - A0
+    - COR_011.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN11-AR/EM-COR/CH.01/magnetic_strength
+    - AN11-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_012
+  mapping:
+  - - B0
+    - COR_012.hcorrector
+  - - A0
+    - COR_012.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN12-AR/EM-COR/CH.01/magnetic_strength
+    - AN12-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_013
+  mapping:
+  - - B0
+    - COR_013.hcorrector
+  - - A0
+    - COR_013.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN13-AR/EM-COR/CH.01/magnetic_strength
+    - AN13-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_014
+  mapping:
+  - - B0
+    - COR_014.hcorrector
+  - - A0
+    - COR_014.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN14-AR/EM-COR/CH.01/magnetic_strength
+    - AN14-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_015
+  mapping:
+  - - B0
+    - COR_015.hcorrector
+  - - A0
+    - COR_015.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN15-AR/EM-COR/CH.01/magnetic_strength
+    - AN15-AR/EM-COR/CV.01/magnetic_strength
+- type: pyaml.magnet.cfm_magnet
+  name: COR_016
+  mapping:
+  - - B0
+    - COR_016.hcorrector
+  - - A0
+    - COR_016.vcorrector
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles:
+    - B0
+    - A0
+    units:
+    - '1'
+    - '1'
+    physics:
+    - AN16-AR/EM-COR/CH.01/magnetic_strength
+    - AN16-AR/EM-COR/CV.01/magnetic_strength
 - type: pyaml.rf.rf_plant
   name: RF
   masterclock: simulator/ringsimulator/ringsimulator/reference_frequency
@@ -782,3 +1003,42 @@ devices:
   name: BETATRON_TUNE
   tune_h: simulator/ringsimulator/ringsimulator/hor
   tune_v: simulator/ringsimulator/ringsimulator/vert
+- type: pyaml.tuning_tools.tune
+  name: DEFAULT_TUNE_CORRECTION
+  quad_array_name: QForTune
+  betatron_tune_name: BETATRON_TUNE
+  response_matrix: ${path:../../trm.json}
+- type: pyaml.tuning_tools.tune_response_matrix
+  name: DEFAULT_TUNE_RESPONSE_MATRIX
+  quad_array_name: QForTune
+  betatron_tune_name: BETATRON_TUNE
+  quad_delta: 0.001
+- type: pyaml.tuning_tools.chromaticity_monitor
+  name: CHROMATICITY_MONITOR
+  betatron_tune_name: BETATRON_TUNE
+  rf_plant_name: RF
+  fit_order: 2
+  n_avg_meas: 3
+  n_step: 15
+  sleep_between_meas: 2
+  sleep_between_step: 2
+  e_delta: 0.01
+  max_e_delta: 0.05
+- type: pyaml.tuning_tools.orbit_response_matrix
+  name: DEFAULT_ORBIT_RESPONSE_MATRIX
+  bpm_array_name: BPM
+  hcorr_array_name: HCorr
+  vcorr_array_name: VCorr
+  corrector_delta: 1.0e-05
+- type: pyaml.tuning_tools.dispersion
+  name: DEFAULT_DISPERSION
+  bpm_array_name: BPM
+  rf_plant_name: RF
+  frequency_delta: 100
+- type: pyaml.tuning_tools.orbit
+  name: DEFAULT_ORBIT_CORRECTION
+  bpm_array_name: BPM
+  hcorr_array_name: HCorr
+  vcorr_array_name: VCorr
+  singular_values: 16
+  response_matrix: ${path:../../orm.json}
