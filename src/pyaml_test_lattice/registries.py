@@ -53,8 +53,8 @@ class _Registry:
             elif entry.is_dir():
                 self._visit(entry, key)
 
-    def __getitem__(self, key: str) -> Traversable:
-        """Return the packaged resource, ready to be read.
+    def __getitem__(self, key: str) -> str:
+        """Return the filesystem path of a packaged resource.
 
         Parameters
         ----------
@@ -63,11 +63,10 @@ class _Registry:
 
         Returns
         -------
-        importlib.abc.Traversable
-            The requested packaged resource. Supports ``.read_text()`` and
-            ``.read_bytes()``, and stringifies to its filesystem path.
+        str
+            Filesystem path of the requested packaged resource.
         """
-        return self._files[key]
+        return str(self._files[key])
 
     def __iter__(self) -> Iterator[str]:
         """Iterate over registered resource paths.

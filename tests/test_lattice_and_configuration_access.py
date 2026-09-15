@@ -5,6 +5,7 @@ as the README describes, nothing more.
 """
 
 from importlib.resources import files
+from pathlib import Path
 
 from pyaml_test_lattice import configurations, lattices
 
@@ -12,18 +13,24 @@ LATTICE_KEY = "fodo_1gev_6d.json"
 CONFIGURATION_KEY = "pyaml/tango/tango-pyaml/fodo_1gev_6d_pyaml.yaml"
 
 
-def test_lattice_file_can_be_read_as_text():
+def test_lattice_registry_returns_an_existing_path():
     lattice_file = lattices[LATTICE_KEY]
-    lattice_json = lattice_file.read_text()
 
-    assert lattice_json != ""
+    assert Path(lattice_file).is_file()
 
 
-def test_configuration_file_can_be_read_as_text():
+def test_lattice_registry_returns_a_string_path():
+    assert isinstance(lattices[LATTICE_KEY], str)
+
+
+def test_configuration_registry_returns_an_existing_path():
     config_file = configurations[CONFIGURATION_KEY]
-    config_text = config_file.read_text()
 
-    assert config_text != ""
+    assert Path(config_file).is_file()
+
+
+def test_configuration_registry_returns_a_string_path():
+    assert isinstance(configurations[CONFIGURATION_KEY], str)
 
 
 def test_lattice_key_is_listed():
