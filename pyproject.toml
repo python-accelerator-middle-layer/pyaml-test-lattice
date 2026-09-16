@@ -3,7 +3,7 @@ name = "pyaml-test-lattice"
 description = "Lattices and configuration files for pyAML tests and tutorials"
 readme = "README.md"
 license = { file = "LICENSE" }
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 dynamic = ["version"]
 keywords = ["accelerator", "synchrotron"]
 
@@ -17,15 +17,12 @@ classifiers = [
     "Natural Language :: English",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
     "Topic :: Scientific/Engineering :: Physics",
-]
-
-dependencies = [
-    "accelerator-toolbox>=0.6.1",
 ]
 
 [project.urls]
@@ -69,9 +66,12 @@ allow-direct-references = true
 [tool.hatch.build.hooks.vcs]
 version-file = "src/pyaml_test_lattice/_version.py"
 
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
 [tool.ruff]
 line-length = 127
-target-version = "py311"
+target-version = "py310"
 
 [tool.ruff.lint]
 # Basic, sane default set: pycodestyle (E,W), pyflakes (F),
@@ -98,6 +98,6 @@ indent-style = "space"
 skip-magic-trailing-comma = false
 
 [tool.mypy]
-python_version = "3.11"
+python_version = "3.10"
 strict = false
 ignore_missing_imports = true

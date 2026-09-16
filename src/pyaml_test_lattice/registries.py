@@ -1,9 +1,13 @@
 """Automatic registries for packaged lattice and configuration files."""
 
 from collections.abc import Iterator, KeysView
-from importlib.abc import Traversable
 from importlib.resources import files
 from pprint import pformat
+
+try:
+    from importlib.resources.abc import Traversable  # Python 3.12+
+except ImportError:  # Python 3.10 / 3.11
+    from importlib.abc import Traversable
 
 
 class _Registry:
@@ -60,7 +64,7 @@ class _Registry:
         Returns
         -------
         str
-            Filesystem path to the requested packaged resource.
+            Filesystem path of the requested packaged resource.
         """
         return str(self._files[key])
 

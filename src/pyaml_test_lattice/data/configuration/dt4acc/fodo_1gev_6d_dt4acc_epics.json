@@ -1,0 +1,674 @@
+[
+  {
+    "type": "Quadrupole",
+    "name": "QF_001",
+    "pc": "QF_001_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_001",
+    "pc": "SF_001_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_001",
+    "pc": "HCOR_001_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_001",
+    "pc": "VCOR_001_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_001",
+    "pc": "QD_001_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_001",
+    "pc": "SD_001_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_002",
+    "pc": "QF_002_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_002",
+    "pc": "SF_002_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_002",
+    "pc": "HCOR_002_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_002",
+    "pc": "VCOR_002_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_002",
+    "pc": "QD_002_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_002",
+    "pc": "SD_002_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_003",
+    "pc": "QF_003_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_003",
+    "pc": "SF_003_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_003",
+    "pc": "HCOR_003_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_003",
+    "pc": "VCOR_003_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_003",
+    "pc": "QD_003_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_003",
+    "pc": "SD_003_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_004",
+    "pc": "QF_004_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_004",
+    "pc": "SF_004_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_004",
+    "pc": "HCOR_004_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_004",
+    "pc": "VCOR_004_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_004",
+    "pc": "QD_004_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_004",
+    "pc": "SD_004_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_005",
+    "pc": "QF_005_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_005",
+    "pc": "SF_005_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_005",
+    "pc": "HCOR_005_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_005",
+    "pc": "VCOR_005_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_005",
+    "pc": "QD_005_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_005",
+    "pc": "SD_005_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_006",
+    "pc": "QF_006_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_006",
+    "pc": "SF_006_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_006",
+    "pc": "HCOR_006_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_006",
+    "pc": "VCOR_006_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_006",
+    "pc": "QD_006_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_006",
+    "pc": "SD_006_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_007",
+    "pc": "QF_007_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_007",
+    "pc": "SF_007_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_007",
+    "pc": "HCOR_007_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_007",
+    "pc": "VCOR_007_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_007",
+    "pc": "QD_007_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_007",
+    "pc": "SD_007_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_008",
+    "pc": "QF_008_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_008",
+    "pc": "SF_008_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_008",
+    "pc": "HCOR_008_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_008",
+    "pc": "VCOR_008_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_008",
+    "pc": "QD_008_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_008",
+    "pc": "SD_008_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_009",
+    "pc": "QF_009_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_009",
+    "pc": "SF_009_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_009",
+    "pc": "HCOR_009_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_009",
+    "pc": "VCOR_009_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_009",
+    "pc": "QD_009_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_009",
+    "pc": "SD_009_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_010",
+    "pc": "QF_010_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_010",
+    "pc": "SF_010_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_010",
+    "pc": "HCOR_010_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_010",
+    "pc": "VCOR_010_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_010",
+    "pc": "QD_010_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_010",
+    "pc": "SD_010_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_011",
+    "pc": "QF_011_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_011",
+    "pc": "SF_011_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_011",
+    "pc": "HCOR_011_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_011",
+    "pc": "VCOR_011_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_011",
+    "pc": "QD_011_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_011",
+    "pc": "SD_011_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_012",
+    "pc": "QF_012_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_012",
+    "pc": "SF_012_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_012",
+    "pc": "HCOR_012_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_012",
+    "pc": "VCOR_012_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_012",
+    "pc": "QD_012_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_012",
+    "pc": "SD_012_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_013",
+    "pc": "QF_013_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_013",
+    "pc": "SF_013_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_013",
+    "pc": "HCOR_013_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_013",
+    "pc": "VCOR_013_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_013",
+    "pc": "QD_013_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_013",
+    "pc": "SD_013_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_014",
+    "pc": "QF_014_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_014",
+    "pc": "SF_014_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_014",
+    "pc": "HCOR_014_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_014",
+    "pc": "VCOR_014_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_014",
+    "pc": "QD_014_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_014",
+    "pc": "SD_014_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_015",
+    "pc": "QF_015_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_015",
+    "pc": "SF_015_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_015",
+    "pc": "HCOR_015_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_015",
+    "pc": "VCOR_015_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_015",
+    "pc": "QD_015_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_015",
+    "pc": "SD_015_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QF_016",
+    "pc": "QF_016_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SF_016",
+    "pc": "SF_016_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "HCOR_016",
+    "pc": "HCOR_016_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Steerer",
+    "name": "VCOR_016",
+    "pc": "VCOR_016_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Quadrupole",
+    "name": "QD_016",
+    "pc": "QD_016_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  },
+  {
+    "type": "Sextupole",
+    "name": "SD_016",
+    "pc": "SD_016_PC",
+    "magnetic_strength": 1.0,
+    "k": 1.0
+  }
+]

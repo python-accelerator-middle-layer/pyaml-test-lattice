@@ -1,0 +1,940 @@
+type: pyaml.accelerator
+facility: Synchrotron SOLEIL
+machine: sr
+energy: 1000000000.0
+simulators:
+- type: pyaml.lattice.simulator
+  name: design
+  lattice: ${path:../../../../lattice/fodo_1gev_6d.json}
+  linker:
+    type: pyaml.lattice.attribute_linker
+    attribute_name: UUID
+controls:
+- type: pyaml_cs_oa.controlsystem
+  name: live
+  catalog:
+    type: pyaml_cs_oa.dynamic_catalog
+    backend: Epics
+    timeout_ms: 3000
+arrays:
+- type: pyaml.arrays.element
+  name: Cell1
+  elements:
+  - QF_001
+  - SF_001
+  - BPM_001
+  - COR_001
+  - COR_001.hcorrector
+  - COR_001.vcorrector
+  - QD_001
+  - SD_001
+- type: pyaml.arrays.element
+  name: COR_001
+  elements:
+  - COR_001
+  - COR_001.hcorrector
+  - COR_001.vcorrector
+- type: pyaml.arrays.element
+  name: Cell2
+  elements:
+  - QF_002
+  - SF_002
+  - BPM_002
+  - COR_002
+  - COR_002.hcorrector
+  - COR_002.vcorrector
+  - QD_002
+  - SD_002
+- type: pyaml.arrays.element
+  name: COR_002
+  elements:
+  - COR_002
+  - COR_002.hcorrector
+  - COR_002.vcorrector
+- type: pyaml.arrays.element
+  name: Cell3
+  elements:
+  - QF_003
+  - SF_003
+  - BPM_003
+  - COR_003
+  - COR_003.hcorrector
+  - COR_003.vcorrector
+  - QD_003
+  - SD_003
+- type: pyaml.arrays.element
+  name: COR_003
+  elements:
+  - COR_003
+  - COR_003.hcorrector
+  - COR_003.vcorrector
+- type: pyaml.arrays.element
+  name: Cell4
+  elements:
+  - QF_004
+  - SF_004
+  - BPM_004
+  - COR_004
+  - COR_004.hcorrector
+  - COR_004.vcorrector
+  - QD_004
+  - SD_004
+- type: pyaml.arrays.element
+  name: COR_004
+  elements:
+  - COR_004
+  - COR_004.hcorrector
+  - COR_004.vcorrector
+- type: pyaml.arrays.element
+  name: Cell5
+  elements:
+  - QF_005
+  - SF_005
+  - BPM_005
+  - COR_005
+  - COR_005.hcorrector
+  - COR_005.vcorrector
+  - QD_005
+  - SD_005
+- type: pyaml.arrays.element
+  name: COR_005
+  elements:
+  - COR_005
+  - COR_005.hcorrector
+  - COR_005.vcorrector
+- type: pyaml.arrays.element
+  name: Cell6
+  elements:
+  - QF_006
+  - SF_006
+  - BPM_006
+  - COR_006
+  - COR_006.hcorrector
+  - COR_006.vcorrector
+  - QD_006
+  - SD_006
+- type: pyaml.arrays.element
+  name: COR_006
+  elements:
+  - COR_006
+  - COR_006.hcorrector
+  - COR_006.vcorrector
+- type: pyaml.arrays.element
+  name: Cell7
+  elements:
+  - QF_007
+  - SF_007
+  - BPM_007
+  - COR_007
+  - COR_007.hcorrector
+  - COR_007.vcorrector
+  - QD_007
+  - SD_007
+- type: pyaml.arrays.element
+  name: COR_007
+  elements:
+  - COR_007
+  - COR_007.hcorrector
+  - COR_007.vcorrector
+- type: pyaml.arrays.element
+  name: Cell8
+  elements:
+  - QF_008
+  - SF_008
+  - BPM_008
+  - COR_008
+  - COR_008.hcorrector
+  - COR_008.vcorrector
+  - QD_008
+  - SD_008
+- type: pyaml.arrays.element
+  name: COR_008
+  elements:
+  - COR_008
+  - COR_008.hcorrector
+  - COR_008.vcorrector
+- type: pyaml.arrays.element
+  name: Cell9
+  elements:
+  - QF_009
+  - SF_009
+  - BPM_009
+  - COR_009
+  - COR_009.hcorrector
+  - COR_009.vcorrector
+  - QD_009
+  - SD_009
+- type: pyaml.arrays.element
+  name: COR_009
+  elements:
+  - COR_009
+  - COR_009.hcorrector
+  - COR_009.vcorrector
+- type: pyaml.arrays.element
+  name: Cell10
+  elements:
+  - QF_010
+  - SF_010
+  - BPM_010
+  - COR_010
+  - COR_010.hcorrector
+  - COR_010.vcorrector
+  - QD_010
+  - SD_010
+- type: pyaml.arrays.element
+  name: COR_010
+  elements:
+  - COR_010
+  - COR_010.hcorrector
+  - COR_010.vcorrector
+- type: pyaml.arrays.element
+  name: Cell11
+  elements:
+  - QF_011
+  - SF_011
+  - BPM_011
+  - COR_011
+  - COR_011.hcorrector
+  - COR_011.vcorrector
+  - QD_011
+  - SD_011
+- type: pyaml.arrays.element
+  name: COR_011
+  elements:
+  - COR_011
+  - COR_011.hcorrector
+  - COR_011.vcorrector
+- type: pyaml.arrays.element
+  name: Cell12
+  elements:
+  - QF_012
+  - SF_012
+  - BPM_012
+  - COR_012
+  - COR_012.hcorrector
+  - COR_012.vcorrector
+  - QD_012
+  - SD_012
+- type: pyaml.arrays.element
+  name: COR_012
+  elements:
+  - COR_012
+  - COR_012.hcorrector
+  - COR_012.vcorrector
+- type: pyaml.arrays.element
+  name: Cell13
+  elements:
+  - QF_013
+  - SF_013
+  - BPM_013
+  - COR_013
+  - COR_013.hcorrector
+  - COR_013.vcorrector
+  - QD_013
+  - SD_013
+- type: pyaml.arrays.element
+  name: COR_013
+  elements:
+  - COR_013
+  - COR_013.hcorrector
+  - COR_013.vcorrector
+- type: pyaml.arrays.element
+  name: Cell14
+  elements:
+  - QF_014
+  - SF_014
+  - BPM_014
+  - COR_014
+  - COR_014.hcorrector
+  - COR_014.vcorrector
+  - QD_014
+  - SD_014
+- type: pyaml.arrays.element
+  name: COR_014
+  elements:
+  - COR_014
+  - COR_014.hcorrector
+  - COR_014.vcorrector
+- type: pyaml.arrays.element
+  name: Cell15
+  elements:
+  - QF_015
+  - SF_015
+  - BPM_015
+  - COR_015
+  - COR_015.hcorrector
+  - COR_015.vcorrector
+  - QD_015
+  - SD_015
+- type: pyaml.arrays.element
+  name: COR_015
+  elements:
+  - COR_015
+  - COR_015.hcorrector
+  - COR_015.vcorrector
+- type: pyaml.arrays.element
+  name: Cell16
+  elements:
+  - QF_016
+  - SF_016
+  - BPM_016
+  - COR_016
+  - COR_016.hcorrector
+  - COR_016.vcorrector
+  - QD_016
+  - SD_016
+- type: pyaml.arrays.element
+  name: COR_016
+  elements:
+  - COR_016
+  - COR_016.hcorrector
+  - COR_016.vcorrector
+devices:
+- type: pyaml.magnet.quadrupole
+  name: QF_001
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_001:Cm:rdbk, QF_001:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_001
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_001:Cm:rdbk, SF_001:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_001
+  x_pos: beam:orbit:x@3[m]
+  y_pos: beam:orbit:y@3[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_001
+  mapping:
+  - [B0, COR_001.hcorrector]
+  - [A0, COR_001.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_001:Cm:rdbk, HCOR_001:Cm:set)[1/m]
+    - (VCOR_001:Cm:rdbk, VCOR_001:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_001
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_001:Cm:rdbk, QD_001:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_001
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_001:Cm:rdbk, SD_001:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_002
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_002:Cm:rdbk, QF_002:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_002
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_002:Cm:rdbk, SF_002:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_002
+  x_pos: beam:orbit:x@15[m]
+  y_pos: beam:orbit:y@15[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_002
+  mapping:
+  - [B0, COR_002.hcorrector]
+  - [A0, COR_002.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_002:Cm:rdbk, HCOR_002:Cm:set)[1/m]
+    - (VCOR_002:Cm:rdbk, VCOR_002:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_002
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_002:Cm:rdbk, QD_002:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_002
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_002:Cm:rdbk, SD_002:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_003
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_003:Cm:rdbk, QF_003:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_003
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_003:Cm:rdbk, SF_003:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_003
+  x_pos: beam:orbit:x@27[m]
+  y_pos: beam:orbit:y@27[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_003
+  mapping:
+  - [B0, COR_003.hcorrector]
+  - [A0, COR_003.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_003:Cm:rdbk, HCOR_003:Cm:set)[1/m]
+    - (VCOR_003:Cm:rdbk, VCOR_003:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_003
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_003:Cm:rdbk, QD_003:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_003
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_003:Cm:rdbk, SD_003:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_004
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_004:Cm:rdbk, QF_004:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_004
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_004:Cm:rdbk, SF_004:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_004
+  x_pos: beam:orbit:x@39[m]
+  y_pos: beam:orbit:y@39[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_004
+  mapping:
+  - [B0, COR_004.hcorrector]
+  - [A0, COR_004.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_004:Cm:rdbk, HCOR_004:Cm:set)[1/m]
+    - (VCOR_004:Cm:rdbk, VCOR_004:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_004
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_004:Cm:rdbk, QD_004:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_004
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_004:Cm:rdbk, SD_004:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_005
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_005:Cm:rdbk, QF_005:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_005
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_005:Cm:rdbk, SF_005:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_005
+  x_pos: beam:orbit:x@51[m]
+  y_pos: beam:orbit:y@51[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_005
+  mapping:
+  - [B0, COR_005.hcorrector]
+  - [A0, COR_005.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_005:Cm:rdbk, HCOR_005:Cm:set)[1/m]
+    - (VCOR_005:Cm:rdbk, VCOR_005:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_005
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_005:Cm:rdbk, QD_005:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_005
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_005:Cm:rdbk, SD_005:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_006
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_006:Cm:rdbk, QF_006:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_006
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_006:Cm:rdbk, SF_006:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_006
+  x_pos: beam:orbit:x@63[m]
+  y_pos: beam:orbit:y@63[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_006
+  mapping:
+  - [B0, COR_006.hcorrector]
+  - [A0, COR_006.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_006:Cm:rdbk, HCOR_006:Cm:set)[1/m]
+    - (VCOR_006:Cm:rdbk, VCOR_006:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_006
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_006:Cm:rdbk, QD_006:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_006
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_006:Cm:rdbk, SD_006:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_007
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_007:Cm:rdbk, QF_007:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_007
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_007:Cm:rdbk, SF_007:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_007
+  x_pos: beam:orbit:x@75[m]
+  y_pos: beam:orbit:y@75[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_007
+  mapping:
+  - [B0, COR_007.hcorrector]
+  - [A0, COR_007.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_007:Cm:rdbk, HCOR_007:Cm:set)[1/m]
+    - (VCOR_007:Cm:rdbk, VCOR_007:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_007
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_007:Cm:rdbk, QD_007:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_007
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_007:Cm:rdbk, SD_007:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_008
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_008:Cm:rdbk, QF_008:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_008
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_008:Cm:rdbk, SF_008:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_008
+  x_pos: beam:orbit:x@87[m]
+  y_pos: beam:orbit:y@87[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_008
+  mapping:
+  - [B0, COR_008.hcorrector]
+  - [A0, COR_008.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_008:Cm:rdbk, HCOR_008:Cm:set)[1/m]
+    - (VCOR_008:Cm:rdbk, VCOR_008:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_008
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_008:Cm:rdbk, QD_008:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_008
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_008:Cm:rdbk, SD_008:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_009
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_009:Cm:rdbk, QF_009:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_009
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_009:Cm:rdbk, SF_009:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_009
+  x_pos: beam:orbit:x@99[m]
+  y_pos: beam:orbit:y@99[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_009
+  mapping:
+  - [B0, COR_009.hcorrector]
+  - [A0, COR_009.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_009:Cm:rdbk, HCOR_009:Cm:set)[1/m]
+    - (VCOR_009:Cm:rdbk, VCOR_009:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_009
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_009:Cm:rdbk, QD_009:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_009
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_009:Cm:rdbk, SD_009:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_010
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_010:Cm:rdbk, QF_010:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_010
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_010:Cm:rdbk, SF_010:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_010
+  x_pos: beam:orbit:x@111[m]
+  y_pos: beam:orbit:y@111[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_010
+  mapping:
+  - [B0, COR_010.hcorrector]
+  - [A0, COR_010.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_010:Cm:rdbk, HCOR_010:Cm:set)[1/m]
+    - (VCOR_010:Cm:rdbk, VCOR_010:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_010
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_010:Cm:rdbk, QD_010:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_010
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_010:Cm:rdbk, SD_010:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_011
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_011:Cm:rdbk, QF_011:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_011
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_011:Cm:rdbk, SF_011:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_011
+  x_pos: beam:orbit:x@123[m]
+  y_pos: beam:orbit:y@123[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_011
+  mapping:
+  - [B0, COR_011.hcorrector]
+  - [A0, COR_011.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_011:Cm:rdbk, HCOR_011:Cm:set)[1/m]
+    - (VCOR_011:Cm:rdbk, VCOR_011:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_011
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_011:Cm:rdbk, QD_011:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_011
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_011:Cm:rdbk, SD_011:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_012
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_012:Cm:rdbk, QF_012:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_012
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_012:Cm:rdbk, SF_012:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_012
+  x_pos: beam:orbit:x@135[m]
+  y_pos: beam:orbit:y@135[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_012
+  mapping:
+  - [B0, COR_012.hcorrector]
+  - [A0, COR_012.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_012:Cm:rdbk, HCOR_012:Cm:set)[1/m]
+    - (VCOR_012:Cm:rdbk, VCOR_012:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_012
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_012:Cm:rdbk, QD_012:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_012
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_012:Cm:rdbk, SD_012:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_013
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_013:Cm:rdbk, QF_013:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_013
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_013:Cm:rdbk, SF_013:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_013
+  x_pos: beam:orbit:x@147[m]
+  y_pos: beam:orbit:y@147[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_013
+  mapping:
+  - [B0, COR_013.hcorrector]
+  - [A0, COR_013.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_013:Cm:rdbk, HCOR_013:Cm:set)[1/m]
+    - (VCOR_013:Cm:rdbk, VCOR_013:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_013
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_013:Cm:rdbk, QD_013:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_013
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_013:Cm:rdbk, SD_013:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_014
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_014:Cm:rdbk, QF_014:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_014
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_014:Cm:rdbk, SF_014:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_014
+  x_pos: beam:orbit:x@159[m]
+  y_pos: beam:orbit:y@159[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_014
+  mapping:
+  - [B0, COR_014.hcorrector]
+  - [A0, COR_014.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_014:Cm:rdbk, HCOR_014:Cm:set)[1/m]
+    - (VCOR_014:Cm:rdbk, VCOR_014:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_014
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_014:Cm:rdbk, QD_014:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_014
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_014:Cm:rdbk, SD_014:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_015
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_015:Cm:rdbk, QF_015:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_015
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_015:Cm:rdbk, SF_015:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_015
+  x_pos: beam:orbit:x@171[m]
+  y_pos: beam:orbit:y@171[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_015
+  mapping:
+  - [B0, COR_015.hcorrector]
+  - [A0, COR_015.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_015:Cm:rdbk, HCOR_015:Cm:set)[1/m]
+    - (VCOR_015:Cm:rdbk, VCOR_015:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_015
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_015:Cm:rdbk, QD_015:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_015
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_015:Cm:rdbk, SD_015:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.magnet.quadrupole
+  name: QF_016
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QF_016:Cm:rdbk, QF_016:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SF_016
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SF_016:Cm:rdbk, SF_016:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.bpm.bpm
+  name: BPM_016
+  x_pos: beam:orbit:x@183[m]
+  y_pos: beam:orbit:y@183[m]
+- type: pyaml.magnet.cfm_magnet
+  name: COR_016
+  mapping:
+  - [B0, COR_016.hcorrector]
+  - [A0, COR_016.vcorrector]
+  model:
+    type: pyaml.magnet.identity_cfm_model
+    multipoles: [B0, A0]
+    physics:
+    - (HCOR_016:Cm:rdbk, HCOR_016:Cm:set)[1/m]
+    - (VCOR_016:Cm:rdbk, VCOR_016:Cm:set)[1/m]
+    units: [1/m, 1/m]
+- type: pyaml.magnet.quadrupole
+  name: QD_016
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (QD_016:Cm:rdbk, QD_016:Cm:set)[1/m]
+    unit: 1/m
+- type: pyaml.magnet.sextupole
+  name: SD_016
+  model:
+    type: pyaml.magnet.identity_model
+    physics: (SD_016:Cm:rdbk, SD_016:Cm:set)[1/m**2]
+    unit: 1/m**2
+- type: pyaml.rf.rf_plant
+  name: RF
+  masterclock: master_clock:freq[kHz]
+- type: pyaml.diagnostics.tune_monitor
+  name: BETATRON_TUNE
+  tune_h: TUNEZR:rdH[kHz]
+  tune_v: TUNEZR:rdV[kHz]
+  rf_plant_name: RF
