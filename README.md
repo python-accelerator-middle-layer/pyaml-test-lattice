@@ -14,11 +14,12 @@ lattice_file = lattices["fodo_1gev_6d.json"]
 config_file = configurations["pyaml/tango/fodo_1gev_6d_pyaml.yaml"]
 ```
 
-The files can be read as text:
+Registry entries are filesystem paths, so they can be passed directly to
+lattice and configuration loaders:
 
 ```python
-config_text = config_file.read_text()
-lattice_json = lattice_file.read_text()
+simulator = Simulator(name="design", lattice=lattice_file)
+accelerator = Accelerator.load(config_file)
 ```
 
 New files placed below either data directory are available automatically using
