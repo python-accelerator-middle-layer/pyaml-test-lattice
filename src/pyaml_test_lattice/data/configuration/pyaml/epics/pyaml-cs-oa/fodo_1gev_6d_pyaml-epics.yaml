@@ -302,7 +302,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_001:Cm:rdbk, SF_001:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_001
   x_pos: beam:orbit:x@3[m]
   y_pos: beam:orbit:y@3[m]
@@ -342,7 +342,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_002:Cm:rdbk, SF_002:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_002
   x_pos: beam:orbit:x@15[m]
   y_pos: beam:orbit:y@15[m]
@@ -382,7 +382,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_003:Cm:rdbk, SF_003:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_003
   x_pos: beam:orbit:x@27[m]
   y_pos: beam:orbit:y@27[m]
@@ -422,7 +422,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_004:Cm:rdbk, SF_004:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_004
   x_pos: beam:orbit:x@39[m]
   y_pos: beam:orbit:y@39[m]
@@ -462,7 +462,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_005:Cm:rdbk, SF_005:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_005
   x_pos: beam:orbit:x@51[m]
   y_pos: beam:orbit:y@51[m]
@@ -502,7 +502,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_006:Cm:rdbk, SF_006:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_006
   x_pos: beam:orbit:x@63[m]
   y_pos: beam:orbit:y@63[m]
@@ -542,7 +542,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_007:Cm:rdbk, SF_007:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_007
   x_pos: beam:orbit:x@75[m]
   y_pos: beam:orbit:y@75[m]
@@ -582,7 +582,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_008:Cm:rdbk, SF_008:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_008
   x_pos: beam:orbit:x@87[m]
   y_pos: beam:orbit:y@87[m]
@@ -622,7 +622,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_009:Cm:rdbk, SF_009:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_009
   x_pos: beam:orbit:x@99[m]
   y_pos: beam:orbit:y@99[m]
@@ -662,7 +662,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_010:Cm:rdbk, SF_010:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_010
   x_pos: beam:orbit:x@111[m]
   y_pos: beam:orbit:y@111[m]
@@ -702,7 +702,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_011:Cm:rdbk, SF_011:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_011
   x_pos: beam:orbit:x@123[m]
   y_pos: beam:orbit:y@123[m]
@@ -742,7 +742,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_012:Cm:rdbk, SF_012:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_012
   x_pos: beam:orbit:x@135[m]
   y_pos: beam:orbit:y@135[m]
@@ -782,7 +782,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_013:Cm:rdbk, SF_013:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_013
   x_pos: beam:orbit:x@147[m]
   y_pos: beam:orbit:y@147[m]
@@ -822,7 +822,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_014:Cm:rdbk, SF_014:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_014
   x_pos: beam:orbit:x@159[m]
   y_pos: beam:orbit:y@159[m]
@@ -862,7 +862,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_015:Cm:rdbk, SF_015:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_015
   x_pos: beam:orbit:x@171[m]
   y_pos: beam:orbit:y@171[m]
@@ -902,7 +902,7 @@ devices:
     type: pyaml.magnet.identity_model
     physics: (SF_016:Cm:rdbk, SF_016:Cm:set)[1/m**2]
     unit: 1/m**2
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_016
   x_pos: beam:orbit:x@183[m]
   y_pos: beam:orbit:y@183[m]
