@@ -13,7 +13,7 @@ simulators:
 controls:
 - type: pyaml_cs_oa.controlsystem
   name: live
-  catalog: fodo_1gev_6d_pyaml_catalogs-oa.yaml
+  catalog: ${include:fodo_1gev_6d_pyaml_catalogs-oa.yaml}
 arrays:
 - type: pyaml.arrays.element
   name: Cell1
@@ -636,67 +636,67 @@ devices:
     type: pyaml.magnet.identity_model
     unit: 1/m**2
     physics: AN16-AR/EM-SX/SD.01/magnetic_strength
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_001
   x_pos: AN01-AR/DG-EPOS/BPM.01/x
   y_pos: AN01-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_002
   x_pos: AN02-AR/DG-EPOS/BPM.01/x
   y_pos: AN02-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_003
   x_pos: AN03-AR/DG-EPOS/BPM.01/x
   y_pos: AN03-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_004
   x_pos: AN04-AR/DG-EPOS/BPM.01/x
   y_pos: AN04-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_005
   x_pos: AN05-AR/DG-EPOS/BPM.01/x
   y_pos: AN05-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_006
   x_pos: AN06-AR/DG-EPOS/BPM.01/x
   y_pos: AN06-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_007
   x_pos: AN07-AR/DG-EPOS/BPM.01/x
   y_pos: AN07-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_008
   x_pos: AN08-AR/DG-EPOS/BPM.01/x
   y_pos: AN08-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_009
   x_pos: AN09-AR/DG-EPOS/BPM.01/x
   y_pos: AN09-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_010
   x_pos: AN10-AR/DG-EPOS/BPM.01/x
   y_pos: AN10-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_011
   x_pos: AN11-AR/DG-EPOS/BPM.01/x
   y_pos: AN11-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_012
   x_pos: AN12-AR/DG-EPOS/BPM.01/x
   y_pos: AN12-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_013
   x_pos: AN13-AR/DG-EPOS/BPM.01/x
   y_pos: AN13-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_014
   x_pos: AN14-AR/DG-EPOS/BPM.01/x
   y_pos: AN14-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_015
   x_pos: AN15-AR/DG-EPOS/BPM.01/x
   y_pos: AN15-AR/DG-EPOS/BPM.01/y
-- type: pyaml.bpm.bpm
+- type: pyaml.diagnostics.bpm.bpm
   name: BPM_016
   x_pos: AN16-AR/DG-EPOS/BPM.01/x
   y_pos: AN16-AR/DG-EPOS/BPM.01/y
