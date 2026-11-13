@@ -932,9 +932,9 @@ devices:
     unit: 1/m**2
 - type: pyaml.rf.rf_plant
   name: RF
-  masterclock: master_clock:freq[kHz]
+  masterclock: (master_clock:freq, master_clock:freq)[Hz]
 - type: pyaml.diagnostics.tune_monitor
   name: BETATRON_TUNE
-  tune_h: TUNEZR:rdH[kHz]
-  tune_v: TUNEZR:rdV[kHz]
+  tune_h: TUNEZR:flq:rdH
+  tune_v: TUNEZR:flq:rdV
   rf_plant_name: RF
